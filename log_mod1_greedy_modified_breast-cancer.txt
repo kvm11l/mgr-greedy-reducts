@@ -1,0 +1,265 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_breast-cancer.csv
+Wersja algorytmu: Modyfikacja 1 (Z optymalizacją wsteczną)
+Liczba poprawnych obiektów skierowanych do walidacji: 266
+Początkowa przestrzeń atrybutów warunkowych: 9
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 1] Do pokrycia: 11628 par.
+      Dodano atrybut 'tumor-size' (pokrył 9908 nowych par). Pozostało par: 1720
+      Dodano atrybut 'age' (pokrył 1270 nowych par). Pozostało par: 450
+      Dodano atrybut 'breast-quad' (pokrył 336 nowych par). Pozostało par: 114
+      Dodano atrybut 'deg-malig' (pokrył 74 nowych par). Pozostało par: 40
+      Dodano atrybut 'breast' (pokrył 21 nowych par). Pozostało par: 19
+      Dodano atrybut 'inv-nodes' (pokrył 11 nowych par). Pozostało par: 8
+      Dodano atrybut 'menopause' (pokrył 6 nowych par). Pozostało par: 2
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'irradiat' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 1] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 1] Weryfikacja niezbędności 9 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 27 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [-] Usunięto: 'inv-nodes' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 1] Redukcja cech: 9 -> 8
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'node-caps', 'irradiat'] | Accuracy (Redukt): 0.778 | Accuracy (Baseline - pełne dane): 0.704
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 2] Do pokrycia: 11628 par.
+      Dodano atrybut 'tumor-size' (pokrył 9961 nowych par). Pozostało par: 1667
+      Dodano atrybut 'age' (pokrył 1220 nowych par). Pozostało par: 447
+      Dodano atrybut 'breast-quad' (pokrył 332 nowych par). Pozostało par: 115
+      Dodano atrybut 'deg-malig' (pokrył 80 nowych par). Pozostało par: 35
+      Dodano atrybut 'inv-nodes' (pokrył 20 nowych par). Pozostało par: 15
+      Dodano atrybut 'menopause' (pokrył 8 nowych par). Pozostało par: 7
+      Dodano atrybut 'breast' (pokrył 5 nowych par). Pozostało par: 2
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'irradiat' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 2] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 2] Weryfikacja niezbędności 9 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 21 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [-] Usunięto: 'inv-nodes' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 2] Redukcja cech: 9 -> 8
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'menopause', 'breast', 'node-caps', 'irradiat'] | Accuracy (Redukt): 0.630 | Accuracy (Baseline - pełne dane): 0.667
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 3] Do pokrycia: 11628 par.
+      Dodano atrybut 'tumor-size' (pokrył 9955 nowych par). Pozostało par: 1673
+      Dodano atrybut 'age' (pokrył 1236 nowych par). Pozostało par: 437
+      Dodano atrybut 'breast-quad' (pokrył 322 nowych par). Pozostało par: 115
+      Dodano atrybut 'deg-malig' (pokrył 78 nowych par). Pozostało par: 37
+      Dodano atrybut 'inv-nodes' (pokrył 22 nowych par). Pozostało par: 15
+      Dodano atrybut 'breast' (pokrył 9 nowych par). Pozostało par: 6
+      Dodano atrybut 'menopause' (pokrył 5 nowych par). Pozostało par: 1
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 3] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 3] Weryfikacja niezbędności 8 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 37 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'inv-nodes' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 3] Redukcja cech: 8 -> 8
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'inv-nodes', 'breast', 'menopause', 'node-caps'] | Accuracy (Redukt): 0.667 | Accuracy (Baseline - pełne dane): 0.667
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 4] Do pokrycia: 11628 par.
+      Dodano atrybut 'tumor-size' (pokrył 9954 nowych par). Pozostało par: 1674
+      Dodano atrybut 'age' (pokrył 1228 nowych par). Pozostało par: 446
+      Dodano atrybut 'breast-quad' (pokrył 333 nowych par). Pozostało par: 113
+      Dodano atrybut 'deg-malig' (pokrył 82 nowych par). Pozostało par: 31
+      Dodano atrybut 'inv-nodes' (pokrył 16 nowych par). Pozostało par: 15
+      Dodano atrybut 'breast' (pokrył 10 nowych par). Pozostało par: 5
+      Dodano atrybut 'menopause' (pokrył 3 nowych par). Pozostało par: 2
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'irradiat' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 4] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 4] Weryfikacja niezbędności 9 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 25 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [-] Usunięto: 'inv-nodes' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 4] Redukcja cech: 9 -> 8
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'node-caps', 'irradiat'] | Accuracy (Redukt): 0.630 | Accuracy (Baseline - pełne dane): 0.630
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 5] Do pokrycia: 11628 par.
+      Dodano atrybut 'tumor-size' (pokrył 9933 nowych par). Pozostało par: 1695
+      Dodano atrybut 'age' (pokrył 1265 nowych par). Pozostało par: 430
+      Dodano atrybut 'breast-quad' (pokrył 320 nowych par). Pozostało par: 110
+      Dodano atrybut 'deg-malig' (pokrył 75 nowych par). Pozostało par: 35
+      Dodano atrybut 'breast' (pokrył 20 nowych par). Pozostało par: 15
+      Dodano atrybut 'inv-nodes' (pokrył 9 nowych par). Pozostało par: 6
+      Dodano atrybut 'menopause' (pokrył 5 nowych par). Pozostało par: 1
+      Dodano atrybut 'irradiat' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 5] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 5] Weryfikacja niezbędności 8 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 25 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 12 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [-] Usunięto: 'inv-nodes' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 5] Redukcja cech: 8 -> 7
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'irradiat'] | Accuracy (Redukt): 0.778 | Accuracy (Baseline - pełne dane): 0.778
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 6] Do pokrycia: 11628 par.
+      Dodano atrybut 'tumor-size' (pokrył 9963 nowych par). Pozostało par: 1665
+      Dodano atrybut 'age' (pokrył 1237 nowych par). Pozostało par: 428
+      Dodano atrybut 'breast-quad' (pokrył 320 nowych par). Pozostało par: 108
+      Dodano atrybut 'deg-malig' (pokrył 73 nowych par). Pozostało par: 35
+      Dodano atrybut 'breast' (pokrył 20 nowych par). Pozostało par: 15
+      Dodano atrybut 'irradiat' (pokrył 9 nowych par). Pozostało par: 6
+      Dodano atrybut 'menopause' (pokrył 5 nowych par). Pozostało par: 1
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 6] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 6] Weryfikacja niezbędności 8 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 37 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 6] Redukcja cech: 8 -> 8
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'irradiat', 'menopause', 'node-caps'] | Accuracy (Redukt): 0.778 | Accuracy (Baseline - pełne dane): 0.741
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 7] Do pokrycia: 11799 par.
+      Dodano atrybut 'tumor-size' (pokrył 10072 nowych par). Pozostało par: 1727
+      Dodano atrybut 'age' (pokrył 1281 nowych par). Pozostało par: 446
+      Dodano atrybut 'breast-quad' (pokrył 334 nowych par). Pozostało par: 112
+      Dodano atrybut 'deg-malig' (pokrył 75 nowych par). Pozostało par: 37
+      Dodano atrybut 'breast' (pokrył 21 nowych par). Pozostało par: 16
+      Dodano atrybut 'menopause' (pokrył 9 nowych par). Pozostało par: 7
+      Dodano atrybut 'irradiat' (pokrył 6 nowych par). Pozostało par: 1
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 7] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 7] Weryfikacja niezbędności 8 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 39 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 7] Redukcja cech: 8 -> 8
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'irradiat', 'node-caps'] | Accuracy (Redukt): 0.769 | Accuracy (Baseline - pełne dane): 0.731
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 8] Do pokrycia: 11799 par.
+      Dodano atrybut 'tumor-size' (pokrył 10002 nowych par). Pozostało par: 1797
+      Dodano atrybut 'age' (pokrył 1319 nowych par). Pozostało par: 478
+      Dodano atrybut 'breast-quad' (pokrył 354 nowych par). Pozostało par: 124
+      Dodano atrybut 'deg-malig' (pokrył 86 nowych par). Pozostało par: 38
+      Dodano atrybut 'breast' (pokrył 21 nowych par). Pozostało par: 17
+      Dodano atrybut 'inv-nodes' (pokrył 10 nowych par). Pozostało par: 7
+      Dodano atrybut 'menopause' (pokrył 5 nowych par). Pozostało par: 2
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'irradiat' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 8] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 8] Weryfikacja niezbędności 9 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 28 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [-] Usunięto: 'inv-nodes' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 8] Redukcja cech: 9 -> 8
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'node-caps', 'irradiat'] | Accuracy (Redukt): 0.885 | Accuracy (Baseline - pełne dane): 0.808
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 9] Do pokrycia: 11799 par.
+      Dodano atrybut 'tumor-size' (pokrył 10102 nowych par). Pozostało par: 1697
+      Dodano atrybut 'age' (pokrył 1254 nowych par). Pozostało par: 443
+      Dodano atrybut 'breast-quad' (pokrył 330 nowych par). Pozostało par: 113
+      Dodano atrybut 'deg-malig' (pokrył 82 nowych par). Pozostało par: 31
+      Dodano atrybut 'breast' (pokrył 18 nowych par). Pozostało par: 13
+      Dodano atrybut 'inv-nodes' (pokrył 8 nowych par). Pozostało par: 5
+      Dodano atrybut 'menopause' (pokrył 4 nowych par). Pozostało par: 1
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 9] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 9] Weryfikacja niezbędności 8 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 28 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'inv-nodes' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 9] Redukcja cech: 8 -> 8
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'node-caps'] | Accuracy (Redukt): 0.615 | Accuracy (Baseline - pełne dane): 0.692
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 10] Do pokrycia: 11799 par.
+      Dodano atrybut 'tumor-size' (pokrył 10051 nowych par). Pozostało par: 1748
+      Dodano atrybut 'age' (pokrył 1290 nowych par). Pozostało par: 458
+      Dodano atrybut 'breast-quad' (pokrył 340 nowych par). Pozostało par: 118
+      Dodano atrybut 'deg-malig' (pokrył 80 nowych par). Pozostało par: 38
+      Dodano atrybut 'breast' (pokrył 21 nowych par). Pozostało par: 17
+      Dodano atrybut 'menopause' (pokrył 10 nowych par). Pozostało par: 7
+      Dodano atrybut 'irradiat' (pokrył 6 nowych par). Pozostało par: 1
+      Dodano atrybut 'node-caps' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 10] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 10] Weryfikacja niezbędności 8 cech...
+      [+] Zatrzymano: 'tumor-size' (niezbędny - bez niego 36 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'age' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast-quad' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'deg-malig' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'breast' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'menopause' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'irradiat' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'node-caps' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 10] Redukcja cech: 8 -> 8
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'irradiat', 'node-caps'] | Accuracy (Redukt): 0.731 | Accuracy (Baseline - pełne dane): 0.577
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.699 ± 0.065
+Średnia długość super-reduktu (przed optymalizacją): 8.400 ± 0.490
+Średnia długość zoptymalizowanego reduktu: 7.900 ± 0.300
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.726 ± 0.083
+Średnia precyzja (Precision): 0.634 ± 0.164
+Średnia czułość (Recall): 0.615 ± 0.114
+Średnia miara F1 (F1-score): 0.615 ± 0.136
+Całkowity czas obliczeń: 4.295 sekund (0.072 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod1_greedy_modified_breast-cancer.txt

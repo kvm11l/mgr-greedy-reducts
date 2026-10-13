@@ -1,0 +1,116 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_mushroom.csv
+Wersja algorytmu: Podstawowy Algorytm Zachłanny
+Liczba poprawnych obiektów (wierszy) skierowanych do walidacji: 8124
+Początkowa przestrzeń atrybutów warunkowych: 22
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] Liczba par wymagających odseparowania: 13345388
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13013612 par). Pozostało par do pokrycia: 331776
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 308454 par). Pozostało par do pokrycia: 23322
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 22505 par). Pozostało par do pokrycia: 817
+      Krok 4: Wybrano atrybut 'population' (pokrył 817 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 1] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] Liczba par wymagających odseparowania: 13345388
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13001436 par). Pozostało par do pokrycia: 343952
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 321468 par). Pozostało par do pokrycia: 22484
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 21637 par). Pozostało par do pokrycia: 847
+      Krok 4: Wybrano atrybut 'population' (pokrył 847 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 2] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] Liczba par wymagających odseparowania: 13345388
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13010867 par). Pozostało par do pokrycia: 334521
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 311113 par). Pozostało par do pokrycia: 23408
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 22594 par). Pozostało par do pokrycia: 814
+      Krok 4: Wybrano atrybut 'population' (pokrył 814 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 3] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] Liczba par wymagających odseparowania: 13345388
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13023248 par). Pozostało par do pokrycia: 322140
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 300216 par). Pozostało par do pokrycia: 21924
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 21063 par). Pozostało par do pokrycia: 861
+      Krok 4: Wybrano atrybut 'population' (pokrył 861 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 4] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] Liczba par wymagających odseparowania: 13348912
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13015263 par). Pozostało par do pokrycia: 333649
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 311160 par). Pozostało par do pokrycia: 22489
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 21588 par). Pozostało par do pokrycia: 901
+      Krok 4: Wybrano atrybut 'population' (pokrył 901 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 5] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] Liczba par wymagających odseparowania: 13348912
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13008697 par). Pozostało par do pokrycia: 340215
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 318291 par). Pozostało par do pokrycia: 21924
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 21168 par). Pozostało par do pokrycia: 756
+      Krok 4: Wybrano atrybut 'population' (pokrył 756 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 6] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] Liczba par wymagających odseparowania: 13349175
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13024285 par). Pozostało par do pokrycia: 324890
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 303302 par). Pozostało par do pokrycia: 21588
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 20797 par). Pozostało par do pokrycia: 791
+      Krok 4: Wybrano atrybut 'population' (pokrył 791 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 7] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] Liczba par wymagających odseparowania: 13349175
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13029791 par). Pozostało par do pokrycia: 319384
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 296504 par). Pozostało par do pokrycia: 22880
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 21992 par). Pozostało par do pokrycia: 888
+      Krok 4: Wybrano atrybut 'population' (pokrył 888 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 8] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] Liczba par wymagających odseparowania: 13349175
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13008627 par). Pozostało par do pokrycia: 340548
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 318918 par). Pozostało par do pokrycia: 21630
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 20845 par). Pozostało par do pokrycia: 785
+      Krok 4: Wybrano atrybut 'population' (pokrył 785 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 9] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] Liczba par wymagających odseparowania: 13349175
+      Krok 1: Wybrano atrybut 'odor' (pokrył 13027665 par). Pozostało par do pokrycia: 321510
+      Krok 2: Wybrano atrybut 'spore-print-color' (pokrył 299236 par). Pozostało par do pokrycia: 22274
+      Krok 3: Wybrano atrybut 'habitat' (pokrył 21441 par). Pozostało par do pokrycia: 833
+      Krok 4: Wybrano atrybut 'population' (pokrył 833 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 10] Długość: 4 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 1.000 ± 0.000
+Średnia długość super-reduktu: 4.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 1.000 ± 0.000
+Średnia precyzja (Precision): 1.000 ± 0.000
+Średnia czułość (Recall): 1.000 ± 0.000
+Średnia miara F1 (F1-score): 1.000 ± 0.000
+Całkowity czas obliczeń: 1705.698 sekund (28.428 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_basic_greedy_modified_mushroom.txt

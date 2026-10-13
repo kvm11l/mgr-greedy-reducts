@@ -1,0 +1,97 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_breast-cancer.csv
+Wersja algorytmu: Modyfikacja 2 (Oczyszczanie przestrzeni + Rozgałęzianie)
+Liczba poprawnych obiektów skierowanych do walidacji: 266
+Początkowa przestrzeń atrybutów warunkowych: 9
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 1] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'node-caps', 'irradiat']
+    [ZAKOŃCZONO Fold 1] Długość: 9 cech | Accuracy (Redukt): 0.704 | Accuracy (Baseline - pełne dane): 0.704
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 2] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'inv-nodes', 'menopause', 'breast', 'node-caps', 'irradiat']
+    [ZAKOŃCZONO Fold 2] Długość: 9 cech | Accuracy (Redukt): 0.667 | Accuracy (Baseline - pełne dane): 0.667
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 3] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'inv-nodes', 'breast', 'menopause', 'node-caps']
+    [ZAKOŃCZONO Fold 3] Długość: 8 cech | Accuracy (Redukt): 0.667 | Accuracy (Baseline - pełne dane): 0.667
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 4] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'inv-nodes', 'breast', 'menopause', 'node-caps', 'irradiat']
+    [ZAKOŃCZONO Fold 4] Długość: 9 cech | Accuracy (Redukt): 0.593 | Accuracy (Baseline - pełne dane): 0.630
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 5] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'irradiat']
+    [ZAKOŃCZONO Fold 5] Długość: 8 cech | Accuracy (Redukt): 0.741 | Accuracy (Baseline - pełne dane): 0.778
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 6] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'irradiat', 'menopause', 'node-caps']
+    [ZAKOŃCZONO Fold 6] Długość: 8 cech | Accuracy (Redukt): 0.778 | Accuracy (Baseline - pełne dane): 0.741
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 7] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'irradiat', 'node-caps']
+    [ZAKOŃCZONO Fold 7] Długość: 8 cech | Accuracy (Redukt): 0.769 | Accuracy (Baseline - pełne dane): 0.731
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 8] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'irradiat', 'menopause', 'node-caps']
+    [ZAKOŃCZONO Fold 8] Długość: 8 cech | Accuracy (Redukt): 0.808 | Accuracy (Baseline - pełne dane): 0.808
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 9] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'node-caps']
+    [ZAKOŃCZONO Fold 9] Długość: 8 cech | Accuracy (Redukt): 0.615 | Accuracy (Baseline - pełne dane): 0.692
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 10] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'irradiat', 'node-caps']
+    [ZAKOŃCZONO Fold 10] Długość: 8 cech | Accuracy (Redukt): 0.731 | Accuracy (Baseline - pełne dane): 0.577
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.699 ± 0.065
+Średnia długość wygenerowanego reduktu: 8.300 ± 0.458
+Średnia liczba usuniętych atrybutów w fazie wstępnego oczyszczania: 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.707 ± 0.067
+Średnia precyzja (Precision): 0.616 ± 0.104
+Średnia czułość (Recall): 0.595 ± 0.089
+Średnia miara F1 (F1-score): 0.595 ± 0.100
+Całkowity czas obliczeń: 3.453 sekund (0.058 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod2_greedy_modified_breast-cancer.txt

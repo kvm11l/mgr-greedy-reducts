@@ -1,0 +1,97 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_house-votes.csv
+Wersja algorytmu: Modyfikacja 2 (Oczyszczanie przestrzeni + Rozgałęzianie)
+Liczba poprawnych obiektów skierowanych do walidacji: 279
+Początkowa przestrzeń atrybutów warunkowych: 16
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 1] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'superfund-right-to-sue', 'water-project-cost-sharing', 'immigration', 'anti-satellite-test-ban', 'el-salvador-aid']
+    [ZAKOŃCZONO Fold 1] Długość: 9 cech | Accuracy (Redukt): 0.893 | Accuracy (Baseline - pełne dane): 0.893
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 2] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'immigration', 'adoption-of-the-budget-resolution', 'anti-satellite-test-ban', 'el-salvador-aid', 'handicapped-infants', 'duty-free-exports', 'export-administration-act-south-africa', 'water-project-cost-sharing', 'superfund-right-to-sue']
+    [ZAKOŃCZONO Fold 2] Długość: 11 cech | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 3] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'superfund-right-to-sue', 'water-project-cost-sharing', 'duty-free-exports', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 3] Długość: 12 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 4] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'superfund-right-to-sue', 'water-project-cost-sharing', 'immigration', 'anti-satellite-test-ban', 'el-salvador-aid', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 4] Długość: 11 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 5] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'anti-satellite-test-ban', 'water-project-cost-sharing', 'el-salvador-aid', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 5] Długość: 10 cech | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 6] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'immigration', 'anti-satellite-test-ban', 'handicapped-infants', 'export-administration-act-south-africa', 'duty-free-exports', 'water-project-cost-sharing', 'superfund-right-to-sue']
+    [ZAKOŃCZONO Fold 6] Długość: 11 cech | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.893
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 7] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'superfund-right-to-sue', 'duty-free-exports', 'water-project-cost-sharing', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 7] Długość: 12 cech | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 8] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'duty-free-exports', 'water-project-cost-sharing', 'immigration', 'anti-satellite-test-ban', 'handicapped-infants', 'el-salvador-aid', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 8] Długość: 11 cech | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 9] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'duty-free-exports', 'adoption-of-the-budget-resolution', 'immigration', 'water-project-cost-sharing', 'superfund-right-to-sue', 'el-salvador-aid', 'anti-satellite-test-ban', 'handicapped-infants']
+    [ZAKOŃCZONO Fold 9] Długość: 10 cech | Accuracy (Redukt): 0.893 | Accuracy (Baseline - pełne dane): 0.929
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 10] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'immigration', 'water-project-cost-sharing', 'anti-satellite-test-ban', 'el-salvador-aid', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 10] Długość: 9 cech | Accuracy (Redukt): 0.926 | Accuracy (Baseline - pełne dane): 0.963
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.957 ± 0.038
+Średnia długość wygenerowanego reduktu: 10.600 ± 1.020
+Średnia liczba usuniętych atrybutów w fazie wstępnego oczyszczania: 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.932 ± 0.052
+Średnia precyzja (Precision): 0.926 ± 0.059
+Średnia czułość (Recall): 0.931 ± 0.048
+Średnia miara F1 (F1-score): 0.925 ± 0.056
+Całkowity czas obliczeń: 3.894 sekund (0.065 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod2_greedy_modified_house-votes.txt

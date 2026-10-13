@@ -1,0 +1,97 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_cars.csv
+Wersja algorytmu: Modyfikacja 2 (Oczyszczanie przestrzeni + Rozgałęzianie)
+Liczba poprawnych obiektów skierowanych do walidacji: 1728
+Początkowa przestrzeń atrybutów warunkowych: 6
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 1] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 1] Długość: 6 cech | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 2] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 2] Długość: 6 cech | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.965
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 3] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 3] Długość: 6 cech | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 4] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 4] Długość: 6 cech | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.977
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 5] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 5] Długość: 6 cech | Accuracy (Redukt): 0.983 | Accuracy (Baseline - pełne dane): 0.994
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 6] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 6] Długość: 6 cech | Accuracy (Redukt): 0.983 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 7] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 7] Długość: 6 cech | Accuracy (Redukt): 0.994 | Accuracy (Baseline - pełne dane): 0.994
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 8] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 8] Długość: 6 cech | Accuracy (Redukt): 0.977 | Accuracy (Baseline - pełne dane): 0.960
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 9] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 9] Długość: 6 cech | Accuracy (Redukt): 0.994 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Brak atrybutów nadmiarowych do usunięcia na tym etapie.
+    [Fold 10] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 10] Długość: 6 cech | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.982 ± 0.012
+Średnia długość wygenerowanego reduktu: 6.000 ± 0.000
+Średnia liczba usuniętych atrybutów w fazie wstępnego oczyszczania: 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.987 ± 0.005
+Średnia precyzja (Precision): 0.979 ± 0.018
+Średnia czułość (Recall): 0.955 ± 0.024
+Średnia miara F1 (F1-score): 0.964 ± 0.018
+Całkowity czas obliczeń: 30.344 sekund (0.506 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod2_greedy_modified_cars.txt

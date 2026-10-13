@@ -1,0 +1,177 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/balance-scale.csv
+Wersja algorytmu: Modyfikacja 1 (Z optymalizacją wsteczną)
+Liczba poprawnych obiektów skierowanych do walidacji: 625
+Początkowa przestrzeń atrybutów warunkowych: 4
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 1] Do pokrycia: 89873 par.
+      Dodano atrybut 'right_distance' (pokrył 74557 nowych par). Pozostało par: 15316
+      Dodano atrybut 'left_distance' (pokrył 12843 nowych par). Pozostało par: 2473
+      Dodano atrybut 'right_weight' (pokrył 2125 nowych par). Pozostało par: 348
+      Dodano atrybut 'left_weight' (pokrył 348 nowych par). Pozostało par: 0
+    [Fold 1] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 1] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 368 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 359 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 363 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 348 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 1] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['right_distance', 'left_distance', 'right_weight', 'left_weight'] | Accuracy (Redukt): 0.746 | Accuracy (Baseline - pełne dane): 0.746
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 2] Do pokrycia: 89873 par.
+      Dodano atrybut 'left_weight' (pokrył 74516 nowych par). Pozostało par: 15357
+      Dodano atrybut 'right_distance' (pokrył 12875 nowych par). Pozostało par: 2482
+      Dodano atrybut 'left_distance' (pokrył 2125 nowych par). Pozostało par: 357
+      Dodano atrybut 'right_weight' (pokrył 357 nowych par). Pozostało par: 0
+    [Fold 2] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 2] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 370 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 358 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 358 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 357 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 2] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['left_weight', 'right_distance', 'left_distance', 'right_weight'] | Accuracy (Redukt): 0.841 | Accuracy (Baseline - pełne dane): 0.825
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 3] Do pokrycia: 89873 par.
+      Dodano atrybut 'right_distance' (pokrył 74528 nowych par). Pozostało par: 15345
+      Dodano atrybut 'left_distance' (pokrył 12847 nowych par). Pozostało par: 2498
+      Dodano atrybut 'left_weight' (pokrył 2136 nowych par). Pozostało par: 362
+      Dodano atrybut 'right_weight' (pokrył 362 nowych par). Pozostało par: 0
+    [Fold 3] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 3] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 370 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 360 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 363 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 362 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 3] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['right_distance', 'left_distance', 'left_weight', 'right_weight'] | Accuracy (Redukt): 0.841 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 4] Do pokrycia: 89873 par.
+      Dodano atrybut 'left_distance' (pokrył 74698 nowych par). Pozostało par: 15175
+      Dodano atrybut 'right_weight' (pokrył 12723 nowych par). Pozostało par: 2452
+      Dodano atrybut 'right_distance' (pokrył 2100 nowych par). Pozostało par: 352
+      Dodano atrybut 'left_weight' (pokrył 352 nowych par). Pozostało par: 0
+    [Fold 4] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 4] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 373 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 362 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 358 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 352 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 4] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['left_distance', 'right_weight', 'right_distance', 'left_weight'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.841
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 5] Do pokrycia: 89873 par.
+      Dodano atrybut 'left_distance' (pokrył 74776 nowych par). Pozostało par: 15097
+      Dodano atrybut 'right_weight' (pokrył 12675 nowych par). Pozostało par: 2422
+      Dodano atrybut 'right_distance' (pokrył 2081 nowych par). Pozostało par: 341
+      Dodano atrybut 'left_weight' (pokrył 341 nowych par). Pozostało par: 0
+    [Fold 5] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 5] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 369 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 352 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 348 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 341 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 5] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['left_distance', 'right_weight', 'right_distance', 'left_weight'] | Accuracy (Redukt): 0.746 | Accuracy (Baseline - pełne dane): 0.746
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 6] Do pokrycia: 90176 par.
+      Dodano atrybut 'left_distance' (pokrył 74706 nowych par). Pozostało par: 15470
+      Dodano atrybut 'right_distance' (pokrył 12933 nowych par). Pozostało par: 2537
+      Dodano atrybut 'left_weight' (pokrył 2175 nowych par). Pozostało par: 362
+      Dodano atrybut 'right_weight' (pokrył 362 nowych par). Pozostało par: 0
+    [Fold 6] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 6] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 370 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 370 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 368 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 362 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 6] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['left_distance', 'right_distance', 'left_weight', 'right_weight'] | Accuracy (Redukt): 0.855 | Accuracy (Baseline - pełne dane): 0.855
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 7] Do pokrycia: 90176 par.
+      Dodano atrybut 'right_distance' (pokrył 74899 nowych par). Pozostało par: 15277
+      Dodano atrybut 'left_weight' (pokrył 12800 nowych par). Pozostało par: 2477
+      Dodano atrybut 'right_weight' (pokrył 2121 nowych par). Pozostało par: 356
+      Dodano atrybut 'left_distance' (pokrył 356 nowych par). Pozostało par: 0
+    [Fold 7] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 7] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 367 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 361 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 367 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 356 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 7] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['right_distance', 'left_weight', 'right_weight', 'left_distance'] | Accuracy (Redukt): 0.871 | Accuracy (Baseline - pełne dane): 0.887
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 8] Do pokrycia: 90176 par.
+      Dodano atrybut 'left_weight' (pokrył 75065 nowych par). Pozostało par: 15111
+      Dodano atrybut 'right_weight' (pokrył 12669 nowych par). Pozostało par: 2442
+      Dodano atrybut 'right_distance' (pokrył 2088 nowych par). Pozostało par: 354
+      Dodano atrybut 'left_distance' (pokrył 354 nowych par). Pozostało par: 0
+    [Fold 8] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 8] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 362 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 359 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 361 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 354 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 8] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['left_weight', 'right_weight', 'right_distance', 'left_distance'] | Accuracy (Redukt): 0.839 | Accuracy (Baseline - pełne dane): 0.855
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 9] Do pokrycia: 90176 par.
+      Dodano atrybut 'left_weight' (pokrył 74964 nowych par). Pozostało par: 15212
+      Dodano atrybut 'right_distance' (pokrył 12747 nowych par). Pozostało par: 2465
+      Dodano atrybut 'right_weight' (pokrył 2113 nowych par). Pozostało par: 352
+      Dodano atrybut 'left_distance' (pokrył 352 nowych par). Pozostało par: 0
+    [Fold 9] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 9] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 376 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 361 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 362 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 352 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 9] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['left_weight', 'right_distance', 'right_weight', 'left_distance'] | Accuracy (Redukt): 0.839 | Accuracy (Baseline - pełne dane): 0.806
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 10] Do pokrycia: 90391 par.
+      Dodano atrybut 'right_weight' (pokrył 75020 nowych par). Pozostało par: 15371
+      Dodano atrybut 'left_weight' (pokrył 12892 nowych par). Pozostało par: 2479
+      Dodano atrybut 'left_distance' (pokrył 2118 nowych par). Pozostało par: 361
+      Dodano atrybut 'right_distance' (pokrył 361 nowych par). Pozostało par: 0
+    [Fold 10] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 10] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'right_weight' (niezbędny - bez niego 377 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_weight' (niezbędny - bez niego 381 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'left_distance' (niezbędny - bez niego 364 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'right_distance' (niezbędny - bez niego 361 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 10] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['right_weight', 'left_weight', 'left_distance', 'right_distance'] | Accuracy (Redukt): 0.855 | Accuracy (Baseline - pełne dane): 0.871
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.829 ± 0.047
+Średnia długość super-reduktu (przed optymalizacją): 4.000 ± 0.000
+Średnia długość zoptymalizowanego reduktu: 4.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.829 ± 0.043
+Średnia precyzja (Precision): 0.598 ± 0.010
+Średnia czułość (Recall): 0.600 ± 0.031
+Średnia miara F1 (F1-score): 0.598 ± 0.019
+Całkowity czas obliczeń: 8.519 sekund (0.142 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod1_greedy_balance-scale.txt

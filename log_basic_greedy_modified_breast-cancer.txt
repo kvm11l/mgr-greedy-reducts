@@ -1,0 +1,160 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_breast-cancer.csv
+Wersja algorytmu: Podstawowy Algorytm Zachłanny
+Liczba poprawnych obiektów (wierszy) skierowanych do walidacji: 266
+Początkowa przestrzeń atrybutów warunkowych: 9
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] Liczba par wymagających odseparowania: 11628
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 9908 par). Pozostało par do pokrycia: 1720
+      Krok 2: Wybrano atrybut 'age' (pokrył 1270 par). Pozostało par do pokrycia: 450
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 336 par). Pozostało par do pokrycia: 114
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 74 par). Pozostało par do pokrycia: 40
+      Krok 5: Wybrano atrybut 'breast' (pokrył 21 par). Pozostało par do pokrycia: 19
+      Krok 6: Wybrano atrybut 'inv-nodes' (pokrył 11 par). Pozostało par do pokrycia: 8
+      Krok 7: Wybrano atrybut 'menopause' (pokrył 6 par). Pozostało par do pokrycia: 2
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 9: Wybrano atrybut 'irradiat' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'node-caps', 'irradiat']
+    [ZAKOŃCZONO Fold 1] Długość: 9 atrybutów | Accuracy (Redukt): 0.704 | Accuracy (Baseline - pełne dane): 0.704
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] Liczba par wymagających odseparowania: 11628
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 9961 par). Pozostało par do pokrycia: 1667
+      Krok 2: Wybrano atrybut 'age' (pokrył 1220 par). Pozostało par do pokrycia: 447
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 332 par). Pozostało par do pokrycia: 115
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 80 par). Pozostało par do pokrycia: 35
+      Krok 5: Wybrano atrybut 'inv-nodes' (pokrył 20 par). Pozostało par do pokrycia: 15
+      Krok 6: Wybrano atrybut 'menopause' (pokrył 8 par). Pozostało par do pokrycia: 7
+      Krok 7: Wybrano atrybut 'breast' (pokrył 5 par). Pozostało par do pokrycia: 2
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 9: Wybrano atrybut 'irradiat' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'inv-nodes', 'menopause', 'breast', 'node-caps', 'irradiat']
+    [ZAKOŃCZONO Fold 2] Długość: 9 atrybutów | Accuracy (Redukt): 0.667 | Accuracy (Baseline - pełne dane): 0.667
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] Liczba par wymagających odseparowania: 11628
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 9955 par). Pozostało par do pokrycia: 1673
+      Krok 2: Wybrano atrybut 'age' (pokrył 1236 par). Pozostało par do pokrycia: 437
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 322 par). Pozostało par do pokrycia: 115
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 78 par). Pozostało par do pokrycia: 37
+      Krok 5: Wybrano atrybut 'inv-nodes' (pokrył 22 par). Pozostało par do pokrycia: 15
+      Krok 6: Wybrano atrybut 'breast' (pokrył 9 par). Pozostało par do pokrycia: 6
+      Krok 7: Wybrano atrybut 'menopause' (pokrył 5 par). Pozostało par do pokrycia: 1
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'inv-nodes', 'breast', 'menopause', 'node-caps']
+    [ZAKOŃCZONO Fold 3] Długość: 8 atrybutów | Accuracy (Redukt): 0.667 | Accuracy (Baseline - pełne dane): 0.667
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] Liczba par wymagających odseparowania: 11628
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 9954 par). Pozostało par do pokrycia: 1674
+      Krok 2: Wybrano atrybut 'age' (pokrył 1228 par). Pozostało par do pokrycia: 446
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 333 par). Pozostało par do pokrycia: 113
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 82 par). Pozostało par do pokrycia: 31
+      Krok 5: Wybrano atrybut 'inv-nodes' (pokrył 16 par). Pozostało par do pokrycia: 15
+      Krok 6: Wybrano atrybut 'breast' (pokrył 10 par). Pozostało par do pokrycia: 5
+      Krok 7: Wybrano atrybut 'menopause' (pokrył 3 par). Pozostało par do pokrycia: 2
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 9: Wybrano atrybut 'irradiat' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'inv-nodes', 'breast', 'menopause', 'node-caps', 'irradiat']
+    [ZAKOŃCZONO Fold 4] Długość: 9 atrybutów | Accuracy (Redukt): 0.593 | Accuracy (Baseline - pełne dane): 0.630
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] Liczba par wymagających odseparowania: 11628
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 9933 par). Pozostało par do pokrycia: 1695
+      Krok 2: Wybrano atrybut 'age' (pokrył 1265 par). Pozostało par do pokrycia: 430
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 320 par). Pozostało par do pokrycia: 110
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 75 par). Pozostało par do pokrycia: 35
+      Krok 5: Wybrano atrybut 'breast' (pokrył 20 par). Pozostało par do pokrycia: 15
+      Krok 6: Wybrano atrybut 'inv-nodes' (pokrył 9 par). Pozostało par do pokrycia: 6
+      Krok 7: Wybrano atrybut 'menopause' (pokrył 5 par). Pozostało par do pokrycia: 1
+      Krok 8: Wybrano atrybut 'irradiat' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'irradiat']
+    [ZAKOŃCZONO Fold 5] Długość: 8 atrybutów | Accuracy (Redukt): 0.741 | Accuracy (Baseline - pełne dane): 0.778
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] Liczba par wymagających odseparowania: 11628
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 9963 par). Pozostało par do pokrycia: 1665
+      Krok 2: Wybrano atrybut 'age' (pokrył 1237 par). Pozostało par do pokrycia: 428
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 320 par). Pozostało par do pokrycia: 108
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 73 par). Pozostało par do pokrycia: 35
+      Krok 5: Wybrano atrybut 'breast' (pokrył 20 par). Pozostało par do pokrycia: 15
+      Krok 6: Wybrano atrybut 'irradiat' (pokrył 9 par). Pozostało par do pokrycia: 6
+      Krok 7: Wybrano atrybut 'menopause' (pokrył 5 par). Pozostało par do pokrycia: 1
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'irradiat', 'menopause', 'node-caps']
+    [ZAKOŃCZONO Fold 6] Długość: 8 atrybutów | Accuracy (Redukt): 0.778 | Accuracy (Baseline - pełne dane): 0.741
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] Liczba par wymagających odseparowania: 11799
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 10072 par). Pozostało par do pokrycia: 1727
+      Krok 2: Wybrano atrybut 'age' (pokrył 1281 par). Pozostało par do pokrycia: 446
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 334 par). Pozostało par do pokrycia: 112
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 75 par). Pozostało par do pokrycia: 37
+      Krok 5: Wybrano atrybut 'breast' (pokrył 21 par). Pozostało par do pokrycia: 16
+      Krok 6: Wybrano atrybut 'menopause' (pokrył 9 par). Pozostało par do pokrycia: 7
+      Krok 7: Wybrano atrybut 'irradiat' (pokrył 6 par). Pozostało par do pokrycia: 1
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'irradiat', 'node-caps']
+    [ZAKOŃCZONO Fold 7] Długość: 8 atrybutów | Accuracy (Redukt): 0.769 | Accuracy (Baseline - pełne dane): 0.731
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] Liczba par wymagających odseparowania: 11799
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 10002 par). Pozostało par do pokrycia: 1797
+      Krok 2: Wybrano atrybut 'age' (pokrył 1319 par). Pozostało par do pokrycia: 478
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 354 par). Pozostało par do pokrycia: 124
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 86 par). Pozostało par do pokrycia: 38
+      Krok 5: Wybrano atrybut 'breast' (pokrył 21 par). Pozostało par do pokrycia: 17
+      Krok 6: Wybrano atrybut 'inv-nodes' (pokrył 10 par). Pozostało par do pokrycia: 7
+      Krok 7: Wybrano atrybut 'menopause' (pokrył 5 par). Pozostało par do pokrycia: 2
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 9: Wybrano atrybut 'irradiat' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'node-caps', 'irradiat']
+    [ZAKOŃCZONO Fold 8] Długość: 9 atrybutów | Accuracy (Redukt): 0.885 | Accuracy (Baseline - pełne dane): 0.808
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] Liczba par wymagających odseparowania: 11799
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 10102 par). Pozostało par do pokrycia: 1697
+      Krok 2: Wybrano atrybut 'age' (pokrył 1254 par). Pozostało par do pokrycia: 443
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 330 par). Pozostało par do pokrycia: 113
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 82 par). Pozostało par do pokrycia: 31
+      Krok 5: Wybrano atrybut 'breast' (pokrył 18 par). Pozostało par do pokrycia: 13
+      Krok 6: Wybrano atrybut 'inv-nodes' (pokrył 8 par). Pozostało par do pokrycia: 5
+      Krok 7: Wybrano atrybut 'menopause' (pokrył 4 par). Pozostało par do pokrycia: 1
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'inv-nodes', 'menopause', 'node-caps']
+    [ZAKOŃCZONO Fold 9] Długość: 8 atrybutów | Accuracy (Redukt): 0.615 | Accuracy (Baseline - pełne dane): 0.692
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] Liczba par wymagających odseparowania: 11799
+      Krok 1: Wybrano atrybut 'tumor-size' (pokrył 10051 par). Pozostało par do pokrycia: 1748
+      Krok 2: Wybrano atrybut 'age' (pokrył 1290 par). Pozostało par do pokrycia: 458
+      Krok 3: Wybrano atrybut 'breast-quad' (pokrył 340 par). Pozostało par do pokrycia: 118
+      Krok 4: Wybrano atrybut 'deg-malig' (pokrył 80 par). Pozostało par do pokrycia: 38
+      Krok 5: Wybrano atrybut 'breast' (pokrył 21 par). Pozostało par do pokrycia: 17
+      Krok 6: Wybrano atrybut 'menopause' (pokrył 10 par). Pozostało par do pokrycia: 7
+      Krok 7: Wybrano atrybut 'irradiat' (pokrył 6 par). Pozostało par do pokrycia: 1
+      Krok 8: Wybrano atrybut 'node-caps' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['tumor-size', 'age', 'breast-quad', 'deg-malig', 'breast', 'menopause', 'irradiat', 'node-caps']
+    [ZAKOŃCZONO Fold 10] Długość: 8 atrybutów | Accuracy (Redukt): 0.731 | Accuracy (Baseline - pełne dane): 0.577
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.699 ± 0.065
+Średnia długość super-reduktu: 8.400 ± 0.490
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.715 ± 0.081
+Średnia precyzja (Precision): 0.627 ± 0.122
+Średnia czułość (Recall): 0.605 ± 0.107
+Średnia miara F1 (F1-score): 0.606 ± 0.118
+Całkowity czas obliczeń: 3.590 sekund (0.060 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_basic_greedy_modified_breast-cancer.txt

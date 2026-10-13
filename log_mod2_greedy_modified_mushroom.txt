@@ -1,0 +1,97 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_mushroom.csv
+Wersja algorytmu: Modyfikacja 2 (Oczyszczanie przestrzeni + Rozgałęzianie
+Liczba poprawnych obiektów skierowanych do walidacji: 8124
+Początkowa przestrzeń atrybutów warunkowych: 22
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 1] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 1] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 2] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 2] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 3] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 3] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 4] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 4] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 5] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 5] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 6] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 6] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 7] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 7] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 8] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 8] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 9] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 9] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] --- Faza 1: Wstępne oczyszczanie przestrzeni ---
+      Usunięto 3 atrybutów jako podzbiory/duplikaty: ['gill-attachment', 'veil-type', 'veil-color']
+    [Fold 10] --- Faza 2: Algorytm Rozgałęziający ---
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population']
+    [ZAKOŃCZONO Fold 10] Długość: 4 cech | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 1.000 ± 0.000
+Średnia długość wygenerowanego reduktu: 4.000 ± 0.000
+Średnia liczba usuniętych atrybutów w fazie wstępnego oczyszczania: 3.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 1.000 ± 0.000
+Średnia precyzja (Precision): 1.000 ± 0.000
+Średnia czułość (Recall): 1.000 ± 0.000
+Średnia miara F1 (F1-score): 1.000 ± 0.000
+Całkowity czas obliczeń: 4746.845 sekund (79.114 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod2_greedy_modified_mushroom.txt

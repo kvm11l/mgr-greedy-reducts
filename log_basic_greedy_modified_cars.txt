@@ -1,0 +1,136 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_cars.csv
+Wersja algorytmu: Podstawowy Algorytm Zachłanny
+Liczba poprawnych obiektów (wierszy) skierowanych do walidacji: 1728
+Początkowa przestrzeń atrybutów warunkowych: 6
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] Liczba par wymagających odseparowania: 552877
+      Krok 1: Wybrano atrybut 'buying' (pokrył 418902 par). Pozostało par do pokrycia: 133975
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103297 par). Pozostało par do pokrycia: 30678
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23590 par). Pozostało par do pokrycia: 7088
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6034 par). Pozostało par do pokrycia: 1054
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 920 par). Pozostało par do pokrycia: 134
+      Krok 6: Wybrano atrybut 'doors' (pokrył 134 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 1] Długość: 6 atrybutów | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] Liczba par wymagających odseparowania: 552877
+      Krok 1: Wybrano atrybut 'buying' (pokrył 418951 par). Pozostało par do pokrycia: 133926
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103435 par). Pozostało par do pokrycia: 30491
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23460 par). Pozostało par do pokrycia: 7031
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6047 par). Pozostało par do pokrycia: 984
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 864 par). Pozostało par do pokrycia: 120
+      Krok 6: Wybrano atrybut 'doors' (pokrył 120 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 2] Długość: 6 atrybutów | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.965
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] Liczba par wymagających odseparowania: 552877
+      Krok 1: Wybrano atrybut 'buying' (pokrył 418236 par). Pozostało par do pokrycia: 134641
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103688 par). Pozostało par do pokrycia: 30953
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23765 par). Pozostało par do pokrycia: 7188
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6116 par). Pozostało par do pokrycia: 1072
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 932 par). Pozostało par do pokrycia: 140
+      Krok 6: Wybrano atrybut 'doors' (pokrył 140 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 3] Długość: 6 atrybutów | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] Liczba par wymagających odseparowania: 552877
+      Krok 1: Wybrano atrybut 'buying' (pokrył 418605 par). Pozostało par do pokrycia: 134272
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103543 par). Pozostało par do pokrycia: 30729
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23437 par). Pozostało par do pokrycia: 7292
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6237 par). Pozostało par do pokrycia: 1055
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 917 par). Pozostało par do pokrycia: 138
+      Krok 6: Wybrano atrybut 'doors' (pokrył 138 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 4] Długość: 6 atrybutów | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.977
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] Liczba par wymagających odseparowania: 552590
+      Krok 1: Wybrano atrybut 'buying' (pokrył 418452 par). Pozostało par do pokrycia: 134138
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103392 par). Pozostało par do pokrycia: 30746
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23674 par). Pozostało par do pokrycia: 7072
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6057 par). Pozostało par do pokrycia: 1015
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 879 par). Pozostało par do pokrycia: 136
+      Krok 6: Wybrano atrybut 'doors' (pokrył 136 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 5] Długość: 6 atrybutów | Accuracy (Redukt): 0.983 | Accuracy (Baseline - pełne dane): 0.994
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] Liczba par wymagających odseparowania: 552590
+      Krok 1: Wybrano atrybut 'buying' (pokrył 419198 par). Pozostało par do pokrycia: 133392
+      Krok 2: Wybrano atrybut 'maint' (pokrył 102856 par). Pozostało par do pokrycia: 30536
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23492 par). Pozostało par do pokrycia: 7044
+      Krok 4: Wybrano atrybut 'persons' (pokrył 5988 par). Pozostało par do pokrycia: 1056
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 915 par). Pozostało par do pokrycia: 141
+      Krok 6: Wybrano atrybut 'doors' (pokrył 141 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 6] Długość: 6 atrybutów | Accuracy (Redukt): 0.983 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] Liczba par wymagających odseparowania: 552590
+      Krok 1: Wybrano atrybut 'buying' (pokrył 418788 par). Pozostało par do pokrycia: 133802
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103148 par). Pozostało par do pokrycia: 30654
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23449 par). Pozostało par do pokrycia: 7205
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6183 par). Pozostało par do pokrycia: 1022
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 889 par). Pozostało par do pokrycia: 133
+      Krok 6: Wybrano atrybut 'doors' (pokrył 133 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 7] Długość: 6 atrybutów | Accuracy (Redukt): 0.994 | Accuracy (Baseline - pełne dane): 0.994
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] Liczba par wymagających odseparowania: 552590
+      Krok 1: Wybrano atrybut 'buying' (pokrył 418919 par). Pozostało par do pokrycia: 133671
+      Krok 2: Wybrano atrybut 'maint' (pokrył 102973 par). Pozostało par do pokrycia: 30698
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23562 par). Pozostało par do pokrycia: 7136
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6116 par). Pozostało par do pokrycia: 1020
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 889 par). Pozostało par do pokrycia: 131
+      Krok 6: Wybrano atrybut 'doors' (pokrył 131 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 8] Długość: 6 atrybutów | Accuracy (Redukt): 0.977 | Accuracy (Baseline - pełne dane): 0.960
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] Liczba par wymagających odseparowania: 554083
+      Krok 1: Wybrano atrybut 'buying' (pokrył 420194 par). Pozostało par do pokrycia: 133889
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103226 par). Pozostało par do pokrycia: 30663
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23447 par). Pozostało par do pokrycia: 7216
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6169 par). Pozostało par do pokrycia: 1047
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 912 par). Pozostało par do pokrycia: 135
+      Krok 6: Wybrano atrybut 'doors' (pokrył 135 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 9] Długość: 6 atrybutów | Accuracy (Redukt): 0.994 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] Liczba par wymagających odseparowania: 554087
+      Krok 1: Wybrano atrybut 'buying' (pokrył 420559 par). Pozostało par do pokrycia: 133528
+      Krok 2: Wybrano atrybut 'maint' (pokrył 103168 par). Pozostało par do pokrycia: 30360
+      Krok 3: Wybrano atrybut 'safety' (pokrył 23237 par). Pozostało par do pokrycia: 7123
+      Krok 4: Wybrano atrybut 'persons' (pokrył 6092 par). Pozostało par do pokrycia: 1031
+      Krok 5: Wybrano atrybut 'lug_boot' (pokrył 899 par). Pozostało par do pokrycia: 132
+      Krok 6: Wybrano atrybut 'doors' (pokrył 132 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors']
+    [ZAKOŃCZONO Fold 10] Długość: 6 atrybutów | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.982 ± 0.012
+Średnia długość super-reduktu: 6.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.987 ± 0.005
+Średnia precyzja (Precision): 0.979 ± 0.018
+Średnia czułość (Recall): 0.955 ± 0.024
+Średnia miara F1 (F1-score): 0.964 ± 0.018
+Całkowity czas obliczeń: 29.933 sekund (0.499 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_basic_greedy_modified_cars.txt

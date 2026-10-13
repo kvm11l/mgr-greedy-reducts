@@ -1,0 +1,183 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_house-votes.csv
+Wersja algorytmu: Podstawowy Algorytm Zachłanny
+Liczba poprawnych obiektów (wierszy) skierowanych do walidacji: 279
+Początkowa przestrzeń atrybutów warunkowych: 16
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] Liczba par wymagających odseparowania: 13858
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12584 par). Pozostało par do pokrycia: 1274
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 774 par). Pozostało par do pokrycia: 500
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 285 par). Pozostało par do pokrycia: 215
+      Krok 4: Wybrano atrybut 'duty-free-exports' (pokrył 118 par). Pozostało par do pokrycia: 97
+      Krok 5: Wybrano atrybut 'superfund-right-to-sue' (pokrył 60 par). Pozostało par do pokrycia: 37
+      Krok 6: Wybrano atrybut 'water-project-cost-sharing' (pokrył 20 par). Pozostało par do pokrycia: 17
+      Krok 7: Wybrano atrybut 'immigration' (pokrył 9 par). Pozostało par do pokrycia: 8
+      Krok 8: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 5 par). Pozostało par do pokrycia: 3
+      Krok 9: Wybrano atrybut 'el-salvador-aid' (pokrył 3 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'superfund-right-to-sue', 'water-project-cost-sharing', 'immigration', 'anti-satellite-test-ban', 'el-salvador-aid']
+    [ZAKOŃCZONO Fold 1] Długość: 9 atrybutów | Accuracy (Redukt): 0.893 | Accuracy (Baseline - pełne dane): 0.893
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] Liczba par wymagających odseparowania: 13858
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12439 par). Pozostało par do pokrycia: 1419
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 867 par). Pozostało par do pokrycia: 552
+      Krok 3: Wybrano atrybut 'immigration' (pokrył 286 par). Pozostało par do pokrycia: 266
+      Krok 4: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 125 par). Pozostało par do pokrycia: 141
+      Krok 5: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 73 par). Pozostało par do pokrycia: 68
+      Krok 6: Wybrano atrybut 'el-salvador-aid' (pokrył 34 par). Pozostało par do pokrycia: 34
+      Krok 7: Wybrano atrybut 'handicapped-infants' (pokrył 16 par). Pozostało par do pokrycia: 18
+      Krok 8: Wybrano atrybut 'duty-free-exports' (pokrył 11 par). Pozostało par do pokrycia: 7
+      Krok 9: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 5 par). Pozostało par do pokrycia: 2
+      Krok 10: Wybrano atrybut 'water-project-cost-sharing' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 11: Wybrano atrybut 'superfund-right-to-sue' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'immigration', 'adoption-of-the-budget-resolution', 'anti-satellite-test-ban', 'el-salvador-aid', 'handicapped-infants', 'duty-free-exports', 'export-administration-act-south-africa', 'water-project-cost-sharing', 'superfund-right-to-sue']
+    [ZAKOŃCZONO Fold 2] Długość: 11 atrybutów | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] Liczba par wymagających odseparowania: 13944
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12297 par). Pozostało par do pokrycia: 1647
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 1000 par). Pozostało par do pokrycia: 647
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 350 par). Pozostało par do pokrycia: 297
+      Krok 4: Wybrano atrybut 'education-spending' (pokrył 158 par). Pozostało par do pokrycia: 139
+      Krok 5: Wybrano atrybut 'superfund-right-to-sue' (pokrył 72 par). Pozostało par do pokrycia: 67
+      Krok 6: Wybrano atrybut 'water-project-cost-sharing' (pokrył 33 par). Pozostało par do pokrycia: 34
+      Krok 7: Wybrano atrybut 'duty-free-exports' (pokrył 19 par). Pozostało par do pokrycia: 15
+      Krok 8: Wybrano atrybut 'el-salvador-aid' (pokrył 7 par). Pozostało par do pokrycia: 8
+      Krok 9: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 4 par). Pozostało par do pokrycia: 4
+      Krok 10: Wybrano atrybut 'immigration' (pokrył 2 par). Pozostało par do pokrycia: 2
+      Krok 11: Wybrano atrybut 'handicapped-infants' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 12: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'superfund-right-to-sue', 'water-project-cost-sharing', 'duty-free-exports', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 3] Długość: 12 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] Liczba par wymagających odseparowania: 13944
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12297 par). Pozostało par do pokrycia: 1647
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 995 par). Pozostało par do pokrycia: 652
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 352 par). Pozostało par do pokrycia: 300
+      Krok 4: Wybrano atrybut 'education-spending' (pokrył 158 par). Pozostało par do pokrycia: 142
+      Krok 5: Wybrano atrybut 'superfund-right-to-sue' (pokrył 71 par). Pozostało par do pokrycia: 71
+      Krok 6: Wybrano atrybut 'duty-free-exports' (pokrył 33 par). Pozostało par do pokrycia: 38
+      Krok 7: Wybrano atrybut 'water-project-cost-sharing' (pokrył 21 par). Pozostało par do pokrycia: 17
+      Krok 8: Wybrano atrybut 'el-salvador-aid' (pokrył 8 par). Pozostało par do pokrycia: 9
+      Krok 9: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 5 par). Pozostało par do pokrycia: 4
+      Krok 10: Wybrano atrybut 'immigration' (pokrył 2 par). Pozostało par do pokrycia: 2
+      Krok 11: Wybrano atrybut 'handicapped-infants' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 12: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'superfund-right-to-sue', 'duty-free-exports', 'water-project-cost-sharing', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 4] Długość: 12 atrybutów | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] Liczba par wymagających odseparowania: 13944
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12372 par). Pozostało par do pokrycia: 1572
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 1010 par). Pozostało par do pokrycia: 562
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 320 par). Pozostało par do pokrycia: 242
+      Krok 4: Wybrano atrybut 'superfund-right-to-sue' (pokrył 142 par). Pozostało par do pokrycia: 100
+      Krok 5: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 56 par). Pozostało par do pokrycia: 44
+      Krok 6: Wybrano atrybut 'water-project-cost-sharing' (pokrył 25 par). Pozostało par do pokrycia: 19
+      Krok 7: Wybrano atrybut 'el-salvador-aid' (pokrył 12 par). Pozostało par do pokrycia: 7
+      Krok 8: Wybrano atrybut 'immigration' (pokrył 5 par). Pozostało par do pokrycia: 2
+      Krok 9: Wybrano atrybut 'handicapped-infants' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 10: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'anti-satellite-test-ban', 'water-project-cost-sharing', 'el-salvador-aid', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 5] Długość: 10 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] Liczba par wymagających odseparowania: 13944
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12747 par). Pozostało par do pokrycia: 1197
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 717 par). Pozostało par do pokrycia: 480
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 263 par). Pozostało par do pokrycia: 217
+      Krok 4: Wybrano atrybut 'education-spending' (pokrył 145 par). Pozostało par do pokrycia: 72
+      Krok 5: Wybrano atrybut 'immigration' (pokrył 35 par). Pozostało par do pokrycia: 37
+      Krok 6: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 18 par). Pozostało par do pokrycia: 19
+      Krok 7: Wybrano atrybut 'handicapped-infants' (pokrył 9 par). Pozostało par do pokrycia: 10
+      Krok 8: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 5 par). Pozostało par do pokrycia: 5
+      Krok 9: Wybrano atrybut 'duty-free-exports' (pokrył 3 par). Pozostało par do pokrycia: 2
+      Krok 10: Wybrano atrybut 'water-project-cost-sharing' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 11: Wybrano atrybut 'superfund-right-to-sue' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'immigration', 'anti-satellite-test-ban', 'handicapped-infants', 'export-administration-act-south-africa', 'duty-free-exports', 'water-project-cost-sharing', 'superfund-right-to-sue']
+    [ZAKOŃCZONO Fold 6] Długość: 11 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.893
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] Liczba par wymagających odseparowania: 13944
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12372 par). Pozostało par do pokrycia: 1572
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 971 par). Pozostało par do pokrycia: 601
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 323 par). Pozostało par do pokrycia: 278
+      Krok 4: Wybrano atrybut 'education-spending' (pokrył 149 par). Pozostało par do pokrycia: 129
+      Krok 5: Wybrano atrybut 'superfund-right-to-sue' (pokrył 65 par). Pozostało par do pokrycia: 64
+      Krok 6: Wybrano atrybut 'duty-free-exports' (pokrył 30 par). Pozostało par do pokrycia: 34
+      Krok 7: Wybrano atrybut 'water-project-cost-sharing' (pokrył 18 par). Pozostało par do pokrycia: 16
+      Krok 8: Wybrano atrybut 'el-salvador-aid' (pokrył 8 par). Pozostało par do pokrycia: 8
+      Krok 9: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 4 par). Pozostało par do pokrycia: 4
+      Krok 10: Wybrano atrybut 'immigration' (pokrył 2 par). Pozostało par do pokrycia: 2
+      Krok 11: Wybrano atrybut 'handicapped-infants' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 12: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'superfund-right-to-sue', 'duty-free-exports', 'water-project-cost-sharing', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 7] Długość: 12 atrybutów | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] Liczba par wymagających odseparowania: 13944
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12372 par). Pozostało par do pokrycia: 1572
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 955 par). Pozostało par do pokrycia: 617
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 343 par). Pozostało par do pokrycia: 274
+      Krok 4: Wybrano atrybut 'superfund-right-to-sue' (pokrył 144 par). Pozostało par do pokrycia: 130
+      Krok 5: Wybrano atrybut 'duty-free-exports' (pokrył 75 par). Pozostało par do pokrycia: 55
+      Krok 6: Wybrano atrybut 'water-project-cost-sharing' (pokrył 34 par). Pozostało par do pokrycia: 21
+      Krok 7: Wybrano atrybut 'immigration' (pokrył 13 par). Pozostało par do pokrycia: 8
+      Krok 8: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 4 par). Pozostało par do pokrycia: 4
+      Krok 9: Wybrano atrybut 'handicapped-infants' (pokrył 2 par). Pozostało par do pokrycia: 2
+      Krok 10: Wybrano atrybut 'el-salvador-aid' (pokrył 1 par). Pozostało par do pokrycia: 1
+      Krok 11: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'duty-free-exports', 'water-project-cost-sharing', 'immigration', 'anti-satellite-test-ban', 'handicapped-infants', 'el-salvador-aid', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 8] Długość: 11 atrybutów | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] Liczba par wymagających odseparowania: 13944
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12447 par). Pozostało par do pokrycia: 1497
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 932 par). Pozostało par do pokrycia: 565
+      Krok 3: Wybrano atrybut 'duty-free-exports' (pokrył 300 par). Pozostało par do pokrycia: 265
+      Krok 4: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 153 par). Pozostało par do pokrycia: 112
+      Krok 5: Wybrano atrybut 'immigration' (pokrył 60 par). Pozostało par do pokrycia: 52
+      Krok 6: Wybrano atrybut 'water-project-cost-sharing' (pokrył 29 par). Pozostało par do pokrycia: 23
+      Krok 7: Wybrano atrybut 'superfund-right-to-sue' (pokrył 15 par). Pozostało par do pokrycia: 8
+      Krok 8: Wybrano atrybut 'el-salvador-aid' (pokrył 4 par). Pozostało par do pokrycia: 4
+      Krok 9: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 3 par). Pozostało par do pokrycia: 1
+      Krok 10: Wybrano atrybut 'handicapped-infants' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'duty-free-exports', 'adoption-of-the-budget-resolution', 'immigration', 'water-project-cost-sharing', 'superfund-right-to-sue', 'el-salvador-aid', 'anti-satellite-test-ban', 'handicapped-infants']
+    [ZAKOŃCZONO Fold 9] Długość: 10 atrybutów | Accuracy (Redukt): 0.893 | Accuracy (Baseline - pełne dane): 0.929
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] Liczba par wymagających odseparowania: 14027
+      Krok 1: Wybrano atrybut 'physician-fee-freeze' (pokrył 12526 par). Pozostało par do pokrycia: 1501
+      Krok 2: Wybrano atrybut 'synfuels-corporation-cutback' (pokrył 909 par). Pozostało par do pokrycia: 592
+      Krok 3: Wybrano atrybut 'adoption-of-the-budget-resolution' (pokrył 322 par). Pozostało par do pokrycia: 270
+      Krok 4: Wybrano atrybut 'duty-free-exports' (pokrył 155 par). Pozostało par do pokrycia: 115
+      Krok 5: Wybrano atrybut 'immigration' (pokrył 64 par). Pozostało par do pokrycia: 51
+      Krok 6: Wybrano atrybut 'water-project-cost-sharing' (pokrył 28 par). Pozostało par do pokrycia: 23
+      Krok 7: Wybrano atrybut 'anti-satellite-test-ban' (pokrył 17 par). Pozostało par do pokrycia: 6
+      Krok 8: Wybrano atrybut 'el-salvador-aid' (pokrył 5 par). Pozostało par do pokrycia: 1
+      Krok 9: Wybrano atrybut 'export-administration-act-south-africa' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'immigration', 'water-project-cost-sharing', 'anti-satellite-test-ban', 'el-salvador-aid', 'export-administration-act-south-africa']
+    [ZAKOŃCZONO Fold 10] Długość: 9 atrybutów | Accuracy (Redukt): 0.926 | Accuracy (Baseline - pełne dane): 0.963
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.957 ± 0.038
+Średnia długość super-reduktu: 10.700 ± 1.100
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.932 ± 0.052
+Średnia precyzja (Precision): 0.926 ± 0.059
+Średnia czułość (Recall): 0.931 ± 0.048
+Średnia miara F1 (F1-score): 0.925 ± 0.056
+Całkowity czas obliczeń: 3.945 sekund (0.066 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_basic_greedy_modified_house-votes.txt

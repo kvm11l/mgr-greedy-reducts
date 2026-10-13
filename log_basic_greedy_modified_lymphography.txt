@@ -1,0 +1,136 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_lymphography.csv
+Wersja algorytmu: Podstawowy Algorytm Zachłanny
+Liczba poprawnych obiektów (wierszy) skierowanych do walidacji: 142
+Początkowa przestrzeń atrybutów warunkowych: 18
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] Liczba par wymagających odseparowania: 3942
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3204 par). Pozostało par do pokrycia: 738
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 583 par). Pozostało par do pokrycia: 155
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 106 par). Pozostało par do pokrycia: 49
+      Krok 4: Wybrano atrybut 'block_of_affere' (pokrył 32 par). Pozostało par do pokrycia: 17
+      Krok 5: Wybrano atrybut 'changes_in_node' (pokrył 14 par). Pozostało par do pokrycia: 3
+      Krok 6: Wybrano atrybut 'dislocation_of' (pokrył 3 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'block_of_affere', 'changes_in_node', 'dislocation_of']
+    [ZAKOŃCZONO Fold 1] Długość: 6 atrybutów | Accuracy (Redukt): 0.533 | Accuracy (Baseline - pełne dane): 0.867
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] Liczba par wymagających odseparowania: 3960
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3303 par). Pozostało par do pokrycia: 657
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 525 par). Pozostało par do pokrycia: 132
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 100 par). Pozostało par do pokrycia: 32
+      Krok 4: Wybrano atrybut 'changes_in_node' (pokrył 22 par). Pozostało par do pokrycia: 10
+      Krok 5: Wybrano atrybut 'block_of_affere' (pokrył 8 par). Pozostało par do pokrycia: 2
+      Krok 6: Wybrano atrybut 'extravasates' (pokrył 2 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'extravasates']
+    [ZAKOŃCZONO Fold 2] Długość: 6 atrybutów | Accuracy (Redukt): 0.733 | Accuracy (Baseline - pełne dane): 0.867
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3314 par). Pozostało par do pokrycia: 701
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 555 par). Pozostało par do pokrycia: 146
+      Krok 3: Wybrano atrybut 'changes_in_node' (pokrył 103 par). Pozostało par do pokrycia: 43
+      Krok 4: Wybrano atrybut 'block_of_affere' (pokrył 33 par). Pozostało par do pokrycia: 10
+      Krok 5: Wybrano atrybut 'special_forms' (pokrył 8 par). Pozostało par do pokrycia: 2
+      Krok 6: Wybrano atrybut 'extravasates' (pokrył 2 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'changes_in_node', 'block_of_affere', 'special_forms', 'extravasates']
+    [ZAKOŃCZONO Fold 3] Długość: 6 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.786
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3341 par). Pozostało par do pokrycia: 674
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 543 par). Pozostało par do pokrycia: 131
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 90 par). Pozostało par do pokrycia: 41
+      Krok 4: Wybrano atrybut 'block_of_affere' (pokrył 27 par). Pozostało par do pokrycia: 14
+      Krok 5: Wybrano atrybut 'changes_in_node' (pokrył 12 par). Pozostało par do pokrycia: 2
+      Krok 6: Wybrano atrybut 'lymphatics' (pokrył 2 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'block_of_affere', 'changes_in_node', 'lymphatics']
+    [ZAKOŃCZONO Fold 4] Długość: 6 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3275 par). Pozostało par do pokrycia: 740
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 587 par). Pozostało par do pokrycia: 153
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 108 par). Pozostało par do pokrycia: 45
+      Krok 4: Wybrano atrybut 'changes_in_node' (pokrył 31 par). Pozostało par do pokrycia: 14
+      Krok 5: Wybrano atrybut 'block_of_affere' (pokrył 12 par). Pozostało par do pokrycia: 2
+      Krok 6: Wybrano atrybut 'lym_nodes_enlar' (pokrył 2 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'lym_nodes_enlar']
+    [ZAKOŃCZONO Fold 5] Długość: 6 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.929
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3281 par). Pozostało par do pokrycia: 734
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 568 par). Pozostało par do pokrycia: 166
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 115 par). Pozostało par do pokrycia: 51
+      Krok 4: Wybrano atrybut 'changes_in_node' (pokrył 34 par). Pozostało par do pokrycia: 17
+      Krok 5: Wybrano atrybut 'block_of_affere' (pokrył 14 par). Pozostało par do pokrycia: 3
+      Krok 6: Wybrano atrybut 'dislocation_of' (pokrył 3 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'dislocation_of']
+    [ZAKOŃCZONO Fold 6] Długość: 6 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.929
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3308 par). Pozostało par do pokrycia: 707
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 563 par). Pozostało par do pokrycia: 144
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 108 par). Pozostało par do pokrycia: 36
+      Krok 4: Wybrano atrybut 'changes_in_node' (pokrył 27 par). Pozostało par do pokrycia: 9
+      Krok 5: Wybrano atrybut 'dislocation_of' (pokrył 7 par). Pozostało par do pokrycia: 2
+      Krok 6: Wybrano atrybut 'block_of_affere' (pokrył 2 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'dislocation_of', 'block_of_affere']
+    [ZAKOŃCZONO Fold 7] Długość: 6 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3321 par). Pozostało par do pokrycia: 694
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 550 par). Pozostało par do pokrycia: 144
+      Krok 3: Wybrano atrybut 'changes_in_node' (pokrył 101 par). Pozostało par do pokrycia: 43
+      Krok 4: Wybrano atrybut 'block_of_affere' (pokrył 32 par). Pozostało par do pokrycia: 11
+      Krok 5: Wybrano atrybut 'defect_in_node' (pokrył 8 par). Pozostało par do pokrycia: 3
+      Krok 6: Wybrano atrybut 'lym_nodes_enlar' (pokrył 3 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'changes_in_node', 'block_of_affere', 'defect_in_node', 'lym_nodes_enlar']
+    [ZAKOŃCZONO Fold 8] Długość: 6 atrybutów | Accuracy (Redukt): 0.929 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3293 par). Pozostało par do pokrycia: 722
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 582 par). Pozostało par do pokrycia: 140
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 101 par). Pozostało par do pokrycia: 39
+      Krok 4: Wybrano atrybut 'changes_in_node' (pokrył 28 par). Pozostało par do pokrycia: 11
+      Krok 5: Wybrano atrybut 'block_of_affere' (pokrył 10 par). Pozostało par do pokrycia: 1
+      Krok 6: Wybrano atrybut 'lymphatics' (pokrył 1 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'lymphatics']
+    [ZAKOŃCZONO Fold 9] Długość: 6 atrybutów | Accuracy (Redukt): 0.714 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] Liczba par wymagających odseparowania: 4015
+      Krok 1: Wybrano atrybut 'no_of_nodes_in' (pokrył 3309 par). Pozostało par do pokrycia: 706
+      Krok 2: Wybrano atrybut 'changes_in_stru' (pokrył 559 par). Pozostało par do pokrycia: 147
+      Krok 3: Wybrano atrybut 'special_forms' (pokrył 103 par). Pozostało par do pokrycia: 44
+      Krok 4: Wybrano atrybut 'changes_in_node' (pokrył 28 par). Pozostało par do pokrycia: 16
+      Krok 5: Wybrano atrybut 'block_of_affere' (pokrył 13 par). Pozostało par do pokrycia: 3
+      Krok 6: Wybrano atrybut 'dislocation_of' (pokrył 3 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'dislocation_of']
+    [ZAKOŃCZONO Fold 10] Długość: 6 atrybutów | Accuracy (Redukt): 0.929 | Accuracy (Baseline - pełne dane): 0.929
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.888 ± 0.056
+Średnia długość super-reduktu: 6.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.812 ± 0.114
+Średnia precyzja (Precision): 0.819 ± 0.123
+Średnia czułość (Recall): 0.804 ± 0.115
+Średnia miara F1 (F1-score): 0.806 ± 0.116
+Całkowity czas obliczeń: 3.215 sekund (0.054 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_basic_greedy_modified_lymphography.txt

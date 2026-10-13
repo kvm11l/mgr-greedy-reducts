@@ -1,0 +1,217 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_cars.csv
+Wersja algorytmu: Modyfikacja 1 (Z optymalizacją wsteczną)
+Liczba poprawnych obiektów skierowanych do walidacji: 1728
+Początkowa przestrzeń atrybutów warunkowych: 6
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 1] Do pokrycia: 552877 par.
+      Dodano atrybut 'buying' (pokrył 418902 nowych par). Pozostało par: 133975
+      Dodano atrybut 'maint' (pokrył 103297 nowych par). Pozostało par: 30678
+      Dodano atrybut 'safety' (pokrył 23590 nowych par). Pozostało par: 7088
+      Dodano atrybut 'persons' (pokrył 6034 nowych par). Pozostało par: 1054
+      Dodano atrybut 'lug_boot' (pokrył 920 nowych par). Pozostało par: 134
+      Dodano atrybut 'doors' (pokrył 134 nowych par). Pozostało par: 0
+    [Fold 1] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 1] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 543 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 474 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 565 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 438 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 236 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 134 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 1] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 2] Do pokrycia: 552877 par.
+      Dodano atrybut 'buying' (pokrył 418951 nowych par). Pozostało par: 133926
+      Dodano atrybut 'maint' (pokrył 103435 nowych par). Pozostało par: 30491
+      Dodano atrybut 'safety' (pokrył 23460 nowych par). Pozostało par: 7031
+      Dodano atrybut 'persons' (pokrył 6047 nowych par). Pozostało par: 984
+      Dodano atrybut 'lug_boot' (pokrył 864 nowych par). Pozostało par: 120
+      Dodano atrybut 'doors' (pokrył 120 nowych par). Pozostało par: 0
+    [Fold 2] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 2] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 524 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 469 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 565 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 447 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 221 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 120 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 2] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.965
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 3] Do pokrycia: 552877 par.
+      Dodano atrybut 'buying' (pokrył 418236 nowych par). Pozostało par: 134641
+      Dodano atrybut 'maint' (pokrył 103688 nowych par). Pozostało par: 30953
+      Dodano atrybut 'safety' (pokrył 23765 nowych par). Pozostało par: 7188
+      Dodano atrybut 'persons' (pokrył 6116 nowych par). Pozostało par: 1072
+      Dodano atrybut 'lug_boot' (pokrył 932 nowych par). Pozostało par: 140
+      Dodano atrybut 'doors' (pokrył 140 nowych par). Pozostało par: 0
+    [Fold 3] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 3] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 524 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 453 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 573 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 446 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 237 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 140 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 3] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 4] Do pokrycia: 552877 par.
+      Dodano atrybut 'buying' (pokrył 418605 nowych par). Pozostało par: 134272
+      Dodano atrybut 'maint' (pokrył 103543 nowych par). Pozostało par: 30729
+      Dodano atrybut 'safety' (pokrył 23437 nowych par). Pozostało par: 7292
+      Dodano atrybut 'persons' (pokrył 6237 nowych par). Pozostało par: 1055
+      Dodano atrybut 'lug_boot' (pokrył 917 nowych par). Pozostało par: 138
+      Dodano atrybut 'doors' (pokrył 138 nowych par). Pozostało par: 0
+    [Fold 4] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 4] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 532 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 468 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 552 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 457 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 234 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 138 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 4] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.977
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 5] Do pokrycia: 552590 par.
+      Dodano atrybut 'buying' (pokrył 418452 nowych par). Pozostało par: 134138
+      Dodano atrybut 'maint' (pokrył 103392 nowych par). Pozostało par: 30746
+      Dodano atrybut 'safety' (pokrył 23674 nowych par). Pozostało par: 7072
+      Dodano atrybut 'persons' (pokrył 6057 nowych par). Pozostało par: 1015
+      Dodano atrybut 'lug_boot' (pokrył 879 nowych par). Pozostało par: 136
+      Dodano atrybut 'doors' (pokrył 136 nowych par). Pozostało par: 0
+    [Fold 5] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 5] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 525 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 476 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 560 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 445 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 224 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 136 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 5] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.983 | Accuracy (Baseline - pełne dane): 0.994
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 6] Do pokrycia: 552590 par.
+      Dodano atrybut 'buying' (pokrył 419198 nowych par). Pozostało par: 133392
+      Dodano atrybut 'maint' (pokrył 102856 nowych par). Pozostało par: 30536
+      Dodano atrybut 'safety' (pokrył 23492 nowych par). Pozostało par: 7044
+      Dodano atrybut 'persons' (pokrył 5988 nowych par). Pozostało par: 1056
+      Dodano atrybut 'lug_boot' (pokrył 915 nowych par). Pozostało par: 141
+      Dodano atrybut 'doors' (pokrył 141 nowych par). Pozostało par: 0
+    [Fold 6] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 6] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 514 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 447 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 565 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 435 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 236 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 141 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 6] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.983 | Accuracy (Baseline - pełne dane): 0.983
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 7] Do pokrycia: 552590 par.
+      Dodano atrybut 'buying' (pokrył 418788 nowych par). Pozostało par: 133802
+      Dodano atrybut 'maint' (pokrył 103148 nowych par). Pozostało par: 30654
+      Dodano atrybut 'safety' (pokrył 23449 nowych par). Pozostało par: 7205
+      Dodano atrybut 'persons' (pokrył 6183 nowych par). Pozostało par: 1022
+      Dodano atrybut 'lug_boot' (pokrył 889 nowych par). Pozostało par: 133
+      Dodano atrybut 'doors' (pokrył 133 nowych par). Pozostało par: 0
+    [Fold 7] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 7] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 523 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 460 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 559 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 454 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 228 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 133 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 7] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.994 | Accuracy (Baseline - pełne dane): 0.994
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 8] Do pokrycia: 552590 par.
+      Dodano atrybut 'buying' (pokrył 418919 nowych par). Pozostało par: 133671
+      Dodano atrybut 'maint' (pokrył 102973 nowych par). Pozostało par: 30698
+      Dodano atrybut 'safety' (pokrył 23562 nowych par). Pozostało par: 7136
+      Dodano atrybut 'persons' (pokrył 6116 nowych par). Pozostało par: 1020
+      Dodano atrybut 'lug_boot' (pokrył 889 nowych par). Pozostało par: 131
+      Dodano atrybut 'doors' (pokrył 131 nowych par). Pozostało par: 0
+    [Fold 8] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 8] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 530 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 459 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 563 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 443 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 230 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 131 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 8] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.977 | Accuracy (Baseline - pełne dane): 0.960
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 9] Do pokrycia: 554083 par.
+      Dodano atrybut 'buying' (pokrył 420194 nowych par). Pozostało par: 133889
+      Dodano atrybut 'maint' (pokrył 103226 nowych par). Pozostało par: 30663
+      Dodano atrybut 'safety' (pokrył 23447 nowych par). Pozostało par: 7216
+      Dodano atrybut 'persons' (pokrył 6169 nowych par). Pozostało par: 1047
+      Dodano atrybut 'lug_boot' (pokrył 912 nowych par). Pozostało par: 135
+      Dodano atrybut 'doors' (pokrył 135 nowych par). Pozostało par: 0
+    [Fold 9] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 9] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 523 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 470 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 556 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 457 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 225 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 135 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 9] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.994 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 10] Do pokrycia: 554087 par.
+      Dodano atrybut 'buying' (pokrył 420559 nowych par). Pozostało par: 133528
+      Dodano atrybut 'maint' (pokrył 103168 nowych par). Pozostało par: 30360
+      Dodano atrybut 'safety' (pokrył 23237 nowych par). Pozostało par: 7123
+      Dodano atrybut 'persons' (pokrył 6092 nowych par). Pozostało par: 1031
+      Dodano atrybut 'lug_boot' (pokrył 899 nowych par). Pozostało par: 132
+      Dodano atrybut 'doors' (pokrył 132 nowych par). Pozostało par: 0
+    [Fold 10] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 10] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'buying' (niezbędny - bez niego 548 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'maint' (niezbędny - bez niego 478 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'safety' (niezbędny - bez niego 559 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'persons' (niezbędny - bez niego 452 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lug_boot' (niezbędny - bez niego 232 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'doors' (niezbędny - bez niego 132 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 10] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['buying', 'maint', 'safety', 'persons', 'lug_boot', 'doors'] | Accuracy (Redukt): 0.988 | Accuracy (Baseline - pełne dane): 0.983
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.982 ± 0.012
+Średnia długość super-reduktu (przed optymalizacją): 6.000 ± 0.000
+Średnia długość zoptymalizowanego reduktu: 6.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.987 ± 0.005
+Średnia precyzja (Precision): 0.979 ± 0.018
+Średnia czułość (Recall): 0.955 ± 0.024
+Średnia miara F1 (F1-score): 0.964 ± 0.018
+Całkowity czas obliczeń: 75.525 sekund (1.259 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod1_greedy_modified_cars.txt

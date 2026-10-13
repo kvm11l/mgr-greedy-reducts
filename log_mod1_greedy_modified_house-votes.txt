@@ -1,0 +1,311 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_house-votes.csv
+Wersja algorytmu: Modyfikacja 1 (Z optymalizacją wsteczną)
+Liczba poprawnych obiektów skierowanych do walidacji: 279
+Początkowa przestrzeń atrybutów warunkowych: 16
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 1] Do pokrycia: 13858 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12584 nowych par). Pozostało par: 1274
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 774 nowych par). Pozostało par: 500
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 285 nowych par). Pozostało par: 215
+      Dodano atrybut 'duty-free-exports' (pokrył 118 nowych par). Pozostało par: 97
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 60 nowych par). Pozostało par: 37
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 20 nowych par). Pozostało par: 17
+      Dodano atrybut 'immigration' (pokrył 9 nowych par). Pozostało par: 8
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 5 nowych par). Pozostało par: 3
+      Dodano atrybut 'el-salvador-aid' (pokrył 3 nowych par). Pozostało par: 0
+    [Fold 1] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 1] Weryfikacja niezbędności 9 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 28 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 35 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 1] Redukcja cech: 9 -> 9
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'superfund-right-to-sue', 'water-project-cost-sharing', 'immigration', 'anti-satellite-test-ban', 'el-salvador-aid'] | Accuracy (Redukt): 0.893 | Accuracy (Baseline - pełne dane): 0.893
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 2] Do pokrycia: 13858 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12439 nowych par). Pozostało par: 1419
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 867 nowych par). Pozostało par: 552
+      Dodano atrybut 'immigration' (pokrył 286 nowych par). Pozostało par: 266
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 125 nowych par). Pozostało par: 141
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 73 nowych par). Pozostało par: 68
+      Dodano atrybut 'el-salvador-aid' (pokrył 34 nowych par). Pozostało par: 34
+      Dodano atrybut 'handicapped-infants' (pokrył 16 nowych par). Pozostało par: 18
+      Dodano atrybut 'duty-free-exports' (pokrył 11 nowych par). Pozostało par: 7
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 5 nowych par). Pozostało par: 2
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 2] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 2] Weryfikacja niezbędności 11 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 15 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 12 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 2] Redukcja cech: 11 -> 11
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'immigration', 'adoption-of-the-budget-resolution', 'anti-satellite-test-ban', 'el-salvador-aid', 'handicapped-infants', 'duty-free-exports', 'export-administration-act-south-africa', 'water-project-cost-sharing', 'superfund-right-to-sue'] | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 3] Do pokrycia: 13944 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12297 nowych par). Pozostało par: 1647
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 1000 nowych par). Pozostało par: 647
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 350 nowych par). Pozostało par: 297
+      Dodano atrybut 'education-spending' (pokrył 158 nowych par). Pozostało par: 139
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 72 nowych par). Pozostało par: 67
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 33 nowych par). Pozostało par: 34
+      Dodano atrybut 'duty-free-exports' (pokrył 19 nowych par). Pozostało par: 15
+      Dodano atrybut 'el-salvador-aid' (pokrył 7 nowych par). Pozostało par: 8
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 4 nowych par). Pozostało par: 4
+      Dodano atrybut 'immigration' (pokrył 2 nowych par). Pozostało par: 2
+      Dodano atrybut 'handicapped-infants' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 3] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 3] Weryfikacja niezbędności 12 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 11 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [-] Usunięto: 'education-spending' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 3] Redukcja cech: 12 -> 11
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'water-project-cost-sharing', 'duty-free-exports', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 4] Do pokrycia: 13944 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12297 nowych par). Pozostało par: 1647
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 995 nowych par). Pozostało par: 652
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 352 nowych par). Pozostało par: 300
+      Dodano atrybut 'education-spending' (pokrył 158 nowych par). Pozostało par: 142
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 71 nowych par). Pozostało par: 71
+      Dodano atrybut 'duty-free-exports' (pokrył 33 nowych par). Pozostało par: 38
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 21 nowych par). Pozostało par: 17
+      Dodano atrybut 'el-salvador-aid' (pokrył 8 nowych par). Pozostało par: 9
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 5 nowych par). Pozostało par: 4
+      Dodano atrybut 'immigration' (pokrył 2 nowych par). Pozostało par: 2
+      Dodano atrybut 'handicapped-infants' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 4] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 4] Weryfikacja niezbędności 12 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 11 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [-] Usunięto: 'education-spending' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 4] Redukcja cech: 12 -> 11
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'duty-free-exports', 'water-project-cost-sharing', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 5] Do pokrycia: 13944 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12372 nowych par). Pozostało par: 1572
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 1010 nowych par). Pozostało par: 562
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 320 nowych par). Pozostało par: 242
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 142 nowych par). Pozostało par: 100
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 56 nowych par). Pozostało par: 44
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 25 nowych par). Pozostało par: 19
+      Dodano atrybut 'el-salvador-aid' (pokrył 12 nowych par). Pozostało par: 7
+      Dodano atrybut 'immigration' (pokrył 5 nowych par). Pozostało par: 2
+      Dodano atrybut 'handicapped-infants' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 5] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 5] Weryfikacja niezbędności 10 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 32 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 19 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 5] Redukcja cech: 10 -> 10
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'anti-satellite-test-ban', 'water-project-cost-sharing', 'el-salvador-aid', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 6] Do pokrycia: 13944 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12747 nowych par). Pozostało par: 1197
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 717 nowych par). Pozostało par: 480
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 263 nowych par). Pozostało par: 217
+      Dodano atrybut 'education-spending' (pokrył 145 nowych par). Pozostało par: 72
+      Dodano atrybut 'immigration' (pokrył 35 nowych par). Pozostało par: 37
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 18 nowych par). Pozostało par: 19
+      Dodano atrybut 'handicapped-infants' (pokrył 9 nowych par). Pozostało par: 10
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 5 nowych par). Pozostało par: 5
+      Dodano atrybut 'duty-free-exports' (pokrył 3 nowych par). Pozostało par: 2
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 6] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 6] Weryfikacja niezbędności 11 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 19 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'education-spending' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 6] Redukcja cech: 11 -> 11
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'education-spending', 'immigration', 'anti-satellite-test-ban', 'handicapped-infants', 'export-administration-act-south-africa', 'duty-free-exports', 'water-project-cost-sharing', 'superfund-right-to-sue'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.893
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 7] Do pokrycia: 13944 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12372 nowych par). Pozostało par: 1572
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 971 nowych par). Pozostało par: 601
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 323 nowych par). Pozostało par: 278
+      Dodano atrybut 'education-spending' (pokrył 149 nowych par). Pozostało par: 129
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 65 nowych par). Pozostało par: 64
+      Dodano atrybut 'duty-free-exports' (pokrył 30 nowych par). Pozostało par: 34
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 18 nowych par). Pozostało par: 16
+      Dodano atrybut 'el-salvador-aid' (pokrył 8 nowych par). Pozostało par: 8
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 4 nowych par). Pozostało par: 4
+      Dodano atrybut 'immigration' (pokrył 2 nowych par). Pozostało par: 2
+      Dodano atrybut 'handicapped-infants' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 7] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 7] Weryfikacja niezbędności 12 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [-] Usunięto: 'education-spending' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [-] Usunięto: 'superfund-right-to-sue' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [-] Usunięto: 'water-project-cost-sharing' (był nadmiarowy, system zachowuje pełne pokrycie).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 7] Redukcja cech: 12 -> 9
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'el-salvador-aid', 'anti-satellite-test-ban', 'immigration', 'handicapped-infants', 'export-administration-act-south-africa'] | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 0.964
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 8] Do pokrycia: 13944 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12372 nowych par). Pozostało par: 1572
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 955 nowych par). Pozostało par: 617
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 343 nowych par). Pozostało par: 274
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 144 nowych par). Pozostało par: 130
+      Dodano atrybut 'duty-free-exports' (pokrył 75 nowych par). Pozostało par: 55
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 34 nowych par). Pozostało par: 21
+      Dodano atrybut 'immigration' (pokrył 13 nowych par). Pozostało par: 8
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 4 nowych par). Pozostało par: 4
+      Dodano atrybut 'handicapped-infants' (pokrył 2 nowych par). Pozostało par: 2
+      Dodano atrybut 'el-salvador-aid' (pokrył 1 nowych par). Pozostało par: 1
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 8] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 8] Weryfikacja niezbędności 11 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 13 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 12 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 8] Redukcja cech: 11 -> 11
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'superfund-right-to-sue', 'duty-free-exports', 'water-project-cost-sharing', 'immigration', 'anti-satellite-test-ban', 'handicapped-infants', 'el-salvador-aid', 'export-administration-act-south-africa'] | Accuracy (Redukt): 0.964 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 9] Do pokrycia: 13944 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12447 nowych par). Pozostało par: 1497
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 932 nowych par). Pozostało par: 565
+      Dodano atrybut 'duty-free-exports' (pokrył 300 nowych par). Pozostało par: 265
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 153 nowych par). Pozostało par: 112
+      Dodano atrybut 'immigration' (pokrył 60 nowych par). Pozostało par: 52
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 29 nowych par). Pozostało par: 23
+      Dodano atrybut 'superfund-right-to-sue' (pokrył 15 nowych par). Pozostało par: 8
+      Dodano atrybut 'el-salvador-aid' (pokrył 4 nowych par). Pozostało par: 4
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 3 nowych par). Pozostało par: 1
+      Dodano atrybut 'handicapped-infants' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 9] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 9] Weryfikacja niezbędności 10 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 25 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 16 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'superfund-right-to-sue' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'handicapped-infants' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 9] Redukcja cech: 10 -> 10
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'duty-free-exports', 'adoption-of-the-budget-resolution', 'immigration', 'water-project-cost-sharing', 'superfund-right-to-sue', 'el-salvador-aid', 'anti-satellite-test-ban', 'handicapped-infants'] | Accuracy (Redukt): 0.893 | Accuracy (Baseline - pełne dane): 0.929
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 10] Do pokrycia: 14027 par.
+      Dodano atrybut 'physician-fee-freeze' (pokrył 12526 nowych par). Pozostało par: 1501
+      Dodano atrybut 'synfuels-corporation-cutback' (pokrył 909 nowych par). Pozostało par: 592
+      Dodano atrybut 'adoption-of-the-budget-resolution' (pokrył 322 nowych par). Pozostało par: 270
+      Dodano atrybut 'duty-free-exports' (pokrył 155 nowych par). Pozostało par: 115
+      Dodano atrybut 'immigration' (pokrył 64 nowych par). Pozostało par: 51
+      Dodano atrybut 'water-project-cost-sharing' (pokrył 28 nowych par). Pozostało par: 23
+      Dodano atrybut 'anti-satellite-test-ban' (pokrył 17 nowych par). Pozostało par: 6
+      Dodano atrybut 'el-salvador-aid' (pokrył 5 nowych par). Pozostało par: 1
+      Dodano atrybut 'export-administration-act-south-africa' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 10] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 10] Weryfikacja niezbędności 9 cech...
+      [+] Zatrzymano: 'physician-fee-freeze' (niezbędny - bez niego 48 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'synfuels-corporation-cutback' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'adoption-of-the-budget-resolution' (niezbędny - bez niego 23 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'duty-free-exports' (niezbędny - bez niego 13 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'immigration' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'water-project-cost-sharing' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'anti-satellite-test-ban' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'el-salvador-aid' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'export-administration-act-south-africa' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 10] Redukcja cech: 9 -> 9
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['physician-fee-freeze', 'synfuels-corporation-cutback', 'adoption-of-the-budget-resolution', 'duty-free-exports', 'immigration', 'water-project-cost-sharing', 'anti-satellite-test-ban', 'el-salvador-aid', 'export-administration-act-south-africa'] | Accuracy (Redukt): 0.926 | Accuracy (Baseline - pełne dane): 0.963
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.957 ± 0.038
+Średnia długość super-reduktu (przed optymalizacją): 10.700 ± 1.100
+Średnia długość zoptymalizowanego reduktu: 10.200 ± 0.872
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.932 ± 0.052
+Średnia precyzja (Precision): 0.926 ± 0.059
+Średnia czułość (Recall): 0.931 ± 0.048
+Średnia miara F1 (F1-score): 0.925 ± 0.056
+Całkowity czas obliczeń: 4.985 sekund (0.083 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod1_greedy_modified_house-votes.txt

@@ -1,0 +1,177 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_mushroom.csv
+Wersja algorytmu: Modyfikacja 1 (Z optymalizacją wsteczną)
+Liczba poprawnych obiektów skierowanych do walidacji: 8124
+Początkowa przestrzeń atrybutów warunkowych: 22
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 1] Do pokrycia: 13345388 par.
+      Dodano atrybut 'odor' (pokrył 13013612 nowych par). Pozostało par: 331776
+      Dodano atrybut 'spore-print-color' (pokrył 308454 nowych par). Pozostało par: 23322
+      Dodano atrybut 'habitat' (pokrył 22505 nowych par). Pozostało par: 817
+      Dodano atrybut 'population' (pokrył 817 nowych par). Pozostało par: 0
+    [Fold 1] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 1] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 85982 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 26043 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4269 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 817 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 1] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 2] Do pokrycia: 13345388 par.
+      Dodano atrybut 'odor' (pokrył 13001436 nowych par). Pozostało par: 343952
+      Dodano atrybut 'spore-print-color' (pokrył 321468 nowych par). Pozostało par: 22484
+      Dodano atrybut 'habitat' (pokrył 21637 nowych par). Pozostało par: 847
+      Dodano atrybut 'population' (pokrył 847 nowych par). Pozostało par: 0
+    [Fold 2] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 2] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 87949 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 24565 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4131 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 847 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 2] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 3] Do pokrycia: 13345388 par.
+      Dodano atrybut 'odor' (pokrył 13010867 nowych par). Pozostało par: 334521
+      Dodano atrybut 'spore-print-color' (pokrył 311113 nowych par). Pozostało par: 23408
+      Dodano atrybut 'habitat' (pokrył 22594 nowych par). Pozostało par: 814
+      Dodano atrybut 'population' (pokrył 814 nowych par). Pozostało par: 0
+    [Fold 3] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 3] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 86076 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 24560 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4072 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 814 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 3] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 4] Do pokrycia: 13345388 par.
+      Dodano atrybut 'odor' (pokrył 13023248 nowych par). Pozostało par: 322140
+      Dodano atrybut 'spore-print-color' (pokrył 300216 nowych par). Pozostało par: 21924
+      Dodano atrybut 'habitat' (pokrył 21063 nowych par). Pozostało par: 861
+      Dodano atrybut 'population' (pokrył 861 nowych par). Pozostało par: 0
+    [Fold 4] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 4] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 90205 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 23178 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4206 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 861 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 4] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 5] Do pokrycia: 13348912 par.
+      Dodano atrybut 'odor' (pokrył 13015263 nowych par). Pozostało par: 333649
+      Dodano atrybut 'spore-print-color' (pokrył 311160 nowych par). Pozostało par: 22489
+      Dodano atrybut 'habitat' (pokrył 21588 nowych par). Pozostało par: 901
+      Dodano atrybut 'population' (pokrył 901 nowych par). Pozostało par: 0
+    [Fold 5] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 5] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 92560 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 23565 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4316 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 901 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 5] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 6] Do pokrycia: 13348912 par.
+      Dodano atrybut 'odor' (pokrył 13008697 nowych par). Pozostało par: 340215
+      Dodano atrybut 'spore-print-color' (pokrył 318291 nowych par). Pozostało par: 21924
+      Dodano atrybut 'habitat' (pokrył 21168 nowych par). Pozostało par: 756
+      Dodano atrybut 'population' (pokrył 756 nowych par). Pozostało par: 0
+    [Fold 6] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 6] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 87843 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 23310 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4032 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 756 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 6] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 7] Do pokrycia: 13349175 par.
+      Dodano atrybut 'odor' (pokrył 13024285 nowych par). Pozostało par: 324890
+      Dodano atrybut 'spore-print-color' (pokrył 303302 nowych par). Pozostało par: 21588
+      Dodano atrybut 'habitat' (pokrył 20797 nowych par). Pozostało par: 791
+      Dodano atrybut 'population' (pokrył 791 nowych par). Pozostało par: 0
+    [Fold 7] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 7] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 88872 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 24534 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 3863 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 791 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 7] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 8] Do pokrycia: 13349175 par.
+      Dodano atrybut 'odor' (pokrył 13029791 nowych par). Pozostało par: 319384
+      Dodano atrybut 'spore-print-color' (pokrył 296504 nowych par). Pozostało par: 22880
+      Dodano atrybut 'habitat' (pokrył 21992 nowych par). Pozostało par: 888
+      Dodano atrybut 'population' (pokrył 888 nowych par). Pozostało par: 0
+    [Fold 8] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 8] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 90701 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 23756 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4408 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 888 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 8] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 9] Do pokrycia: 13349175 par.
+      Dodano atrybut 'odor' (pokrył 13008627 nowych par). Pozostało par: 340548
+      Dodano atrybut 'spore-print-color' (pokrył 318918 nowych par). Pozostało par: 21630
+      Dodano atrybut 'habitat' (pokrył 20845 nowych par). Pozostało par: 785
+      Dodano atrybut 'population' (pokrył 785 nowych par). Pozostało par: 0
+    [Fold 9] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 9] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 93864 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 24888 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4034 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 785 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 9] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 10] Do pokrycia: 13349175 par.
+      Dodano atrybut 'odor' (pokrył 13027665 nowych par). Pozostało par: 321510
+      Dodano atrybut 'spore-print-color' (pokrył 299236 nowych par). Pozostało par: 22274
+      Dodano atrybut 'habitat' (pokrył 21441 nowych par). Pozostało par: 833
+      Dodano atrybut 'population' (pokrył 833 nowych par). Pozostało par: 0
+    [Fold 10] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 10] Weryfikacja niezbędności 4 cech...
+      [+] Zatrzymano: 'odor' (niezbędny - bez niego 90793 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'spore-print-color' (niezbędny - bez niego 24187 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'habitat' (niezbędny - bez niego 4135 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'population' (niezbędny - bez niego 833 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 10] Redukcja cech: 4 -> 4
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['odor', 'spore-print-color', 'habitat', 'population'] | Accuracy (Redukt): 1.000 | Accuracy (Baseline - pełne dane): 1.000
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 1.000 ± 0.000
+Średnia długość super-reduktu (przed optymalizacją): 4.000 ± 0.000
+Średnia długość zoptymalizowanego reduktu: 4.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 1.000 ± 0.000
+Średnia precyzja (Precision): 1.000 ± 0.000
+Średnia czułość (Recall): 1.000 ± 0.000
+Średnia miara F1 (F1-score): 1.000 ± 0.000
+Całkowity czas obliczeń: 2136.490 sekund (35.608 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod1_greedy_modified_mushroom.txt

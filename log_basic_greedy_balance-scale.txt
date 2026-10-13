@@ -1,0 +1,116 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/balance-scale.csv
+Wersja algorytmu: Podstawowy Algorytm Zachłanny
+Liczba poprawnych obiektów (wierszy) skierowanych do walidacji: 625
+Początkowa przestrzeń atrybutów warunkowych: 4
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 1] Liczba par wymagających odseparowania: 89873
+      Krok 1: Wybrano atrybut 'right_distance' (pokrył 74557 par). Pozostało par do pokrycia: 15316
+      Krok 2: Wybrano atrybut 'left_distance' (pokrył 12843 par). Pozostało par do pokrycia: 2473
+      Krok 3: Wybrano atrybut 'right_weight' (pokrył 2125 par). Pozostało par do pokrycia: 348
+      Krok 4: Wybrano atrybut 'left_weight' (pokrył 348 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['right_distance', 'left_distance', 'right_weight', 'left_weight']
+    [ZAKOŃCZONO Fold 1] Długość: 4 atrybutów | Accuracy (Redukt): 0.746 | Accuracy (Baseline - pełne dane): 0.746
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 2] Liczba par wymagających odseparowania: 89873
+      Krok 1: Wybrano atrybut 'left_weight' (pokrył 74516 par). Pozostało par do pokrycia: 15357
+      Krok 2: Wybrano atrybut 'right_distance' (pokrył 12875 par). Pozostało par do pokrycia: 2482
+      Krok 3: Wybrano atrybut 'left_distance' (pokrył 2125 par). Pozostało par do pokrycia: 357
+      Krok 4: Wybrano atrybut 'right_weight' (pokrył 357 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['left_weight', 'right_distance', 'left_distance', 'right_weight']
+    [ZAKOŃCZONO Fold 2] Długość: 4 atrybutów | Accuracy (Redukt): 0.841 | Accuracy (Baseline - pełne dane): 0.825
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 3] Liczba par wymagających odseparowania: 89873
+      Krok 1: Wybrano atrybut 'right_distance' (pokrył 74528 par). Pozostało par do pokrycia: 15345
+      Krok 2: Wybrano atrybut 'left_distance' (pokrył 12847 par). Pozostało par do pokrycia: 2498
+      Krok 3: Wybrano atrybut 'left_weight' (pokrył 2136 par). Pozostało par do pokrycia: 362
+      Krok 4: Wybrano atrybut 'right_weight' (pokrył 362 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['right_distance', 'left_distance', 'left_weight', 'right_weight']
+    [ZAKOŃCZONO Fold 3] Długość: 4 atrybutów | Accuracy (Redukt): 0.841 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 4] Liczba par wymagających odseparowania: 89873
+      Krok 1: Wybrano atrybut 'left_distance' (pokrył 74698 par). Pozostało par do pokrycia: 15175
+      Krok 2: Wybrano atrybut 'right_weight' (pokrył 12723 par). Pozostało par do pokrycia: 2452
+      Krok 3: Wybrano atrybut 'right_distance' (pokrył 2100 par). Pozostało par do pokrycia: 352
+      Krok 4: Wybrano atrybut 'left_weight' (pokrył 352 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['left_distance', 'right_weight', 'right_distance', 'left_weight']
+    [ZAKOŃCZONO Fold 4] Długość: 4 atrybutów | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.841
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 5] Liczba par wymagających odseparowania: 89873
+      Krok 1: Wybrano atrybut 'left_distance' (pokrył 74776 par). Pozostało par do pokrycia: 15097
+      Krok 2: Wybrano atrybut 'right_weight' (pokrył 12675 par). Pozostało par do pokrycia: 2422
+      Krok 3: Wybrano atrybut 'right_distance' (pokrył 2081 par). Pozostało par do pokrycia: 341
+      Krok 4: Wybrano atrybut 'left_weight' (pokrył 341 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['left_distance', 'right_weight', 'right_distance', 'left_weight']
+    [ZAKOŃCZONO Fold 5] Długość: 4 atrybutów | Accuracy (Redukt): 0.746 | Accuracy (Baseline - pełne dane): 0.746
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 6] Liczba par wymagających odseparowania: 90176
+      Krok 1: Wybrano atrybut 'left_distance' (pokrył 74706 par). Pozostało par do pokrycia: 15470
+      Krok 2: Wybrano atrybut 'right_distance' (pokrył 12933 par). Pozostało par do pokrycia: 2537
+      Krok 3: Wybrano atrybut 'left_weight' (pokrył 2175 par). Pozostało par do pokrycia: 362
+      Krok 4: Wybrano atrybut 'right_weight' (pokrył 362 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['left_distance', 'right_distance', 'left_weight', 'right_weight']
+    [ZAKOŃCZONO Fold 6] Długość: 4 atrybutów | Accuracy (Redukt): 0.855 | Accuracy (Baseline - pełne dane): 0.855
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 7] Liczba par wymagających odseparowania: 90176
+      Krok 1: Wybrano atrybut 'right_distance' (pokrył 74899 par). Pozostało par do pokrycia: 15277
+      Krok 2: Wybrano atrybut 'left_weight' (pokrył 12800 par). Pozostało par do pokrycia: 2477
+      Krok 3: Wybrano atrybut 'right_weight' (pokrył 2121 par). Pozostało par do pokrycia: 356
+      Krok 4: Wybrano atrybut 'left_distance' (pokrył 356 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['right_distance', 'left_weight', 'right_weight', 'left_distance']
+    [ZAKOŃCZONO Fold 7] Długość: 4 atrybutów | Accuracy (Redukt): 0.871 | Accuracy (Baseline - pełne dane): 0.887
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 8] Liczba par wymagających odseparowania: 90176
+      Krok 1: Wybrano atrybut 'left_weight' (pokrył 75065 par). Pozostało par do pokrycia: 15111
+      Krok 2: Wybrano atrybut 'right_weight' (pokrył 12669 par). Pozostało par do pokrycia: 2442
+      Krok 3: Wybrano atrybut 'right_distance' (pokrył 2088 par). Pozostało par do pokrycia: 354
+      Krok 4: Wybrano atrybut 'left_distance' (pokrył 354 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['left_weight', 'right_weight', 'right_distance', 'left_distance']
+    [ZAKOŃCZONO Fold 8] Długość: 4 atrybutów | Accuracy (Redukt): 0.839 | Accuracy (Baseline - pełne dane): 0.855
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 9] Liczba par wymagających odseparowania: 90176
+      Krok 1: Wybrano atrybut 'left_weight' (pokrył 74964 par). Pozostało par do pokrycia: 15212
+      Krok 2: Wybrano atrybut 'right_distance' (pokrył 12747 par). Pozostało par do pokrycia: 2465
+      Krok 3: Wybrano atrybut 'right_weight' (pokrył 2113 par). Pozostało par do pokrycia: 352
+      Krok 4: Wybrano atrybut 'left_distance' (pokrył 352 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['left_weight', 'right_distance', 'right_weight', 'left_distance']
+    [ZAKOŃCZONO Fold 9] Długość: 4 atrybutów | Accuracy (Redukt): 0.839 | Accuracy (Baseline - pełne dane): 0.806
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] Inicjalizacja zbioru konfliktów P(T)...
+    [Fold 10] Liczba par wymagających odseparowania: 90391
+      Krok 1: Wybrano atrybut 'right_weight' (pokrył 75020 par). Pozostało par do pokrycia: 15371
+      Krok 2: Wybrano atrybut 'left_weight' (pokrył 12892 par). Pozostało par do pokrycia: 2479
+      Krok 3: Wybrano atrybut 'left_distance' (pokrył 2118 par). Pozostało par do pokrycia: 361
+      Krok 4: Wybrano atrybut 'right_distance' (pokrył 361 par). Pozostało par do pokrycia: 0
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['right_weight', 'left_weight', 'left_distance', 'right_distance']
+    [ZAKOŃCZONO Fold 10] Długość: 4 atrybutów | Accuracy (Redukt): 0.855 | Accuracy (Baseline - pełne dane): 0.871
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.829 ± 0.047
+Średnia długość super-reduktu: 4.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.829 ± 0.043
+Średnia precyzja (Precision): 0.598 ± 0.010
+Średnia czułość (Recall): 0.600 ± 0.031
+Średnia miara F1 (F1-score): 0.598 ± 0.019
+Całkowity czas obliczeń: 5.658 sekund (0.094 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_basic_greedy_balance-scale.txt

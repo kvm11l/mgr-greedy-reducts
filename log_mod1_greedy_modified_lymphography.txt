@@ -1,0 +1,217 @@
+========== ROZPOCZĘCIE ANALIZY ==========
+Plik wejściowy: data/modified_lymphography.csv
+Wersja algorytmu: Modyfikacja 1 (Z optymalizacją wsteczną)
+Liczba poprawnych obiektów skierowanych do walidacji: 142
+Początkowa przestrzeń atrybutów warunkowych: 18
+
+--- Rozpoczęcie Fold 1/10 ---
+    [Fold 1] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 1] Do pokrycia: 3942 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3204 nowych par). Pozostało par: 738
+      Dodano atrybut 'changes_in_stru' (pokrył 583 nowych par). Pozostało par: 155
+      Dodano atrybut 'special_forms' (pokrył 106 nowych par). Pozostało par: 49
+      Dodano atrybut 'block_of_affere' (pokrył 32 nowych par). Pozostało par: 17
+      Dodano atrybut 'changes_in_node' (pokrył 14 nowych par). Pozostało par: 3
+      Dodano atrybut 'dislocation_of' (pokrył 3 nowych par). Pozostało par: 0
+    [Fold 1] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 1] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'dislocation_of' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 1] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 1] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'block_of_affere', 'changes_in_node', 'dislocation_of'] | Accuracy (Redukt): 0.533 | Accuracy (Baseline - pełne dane): 0.867
+
+--- Rozpoczęcie Fold 2/10 ---
+    [Fold 2] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 2] Do pokrycia: 3960 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3303 nowych par). Pozostało par: 657
+      Dodano atrybut 'changes_in_stru' (pokrył 525 nowych par). Pozostało par: 132
+      Dodano atrybut 'special_forms' (pokrył 100 nowych par). Pozostało par: 32
+      Dodano atrybut 'changes_in_node' (pokrył 22 nowych par). Pozostało par: 10
+      Dodano atrybut 'block_of_affere' (pokrył 8 nowych par). Pozostało par: 2
+      Dodano atrybut 'extravasates' (pokrył 2 nowych par). Pozostało par: 0
+    [Fold 2] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 2] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'extravasates' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 2] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 2] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'extravasates'] | Accuracy (Redukt): 0.733 | Accuracy (Baseline - pełne dane): 0.867
+
+--- Rozpoczęcie Fold 3/10 ---
+    [Fold 3] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 3] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3314 nowych par). Pozostało par: 701
+      Dodano atrybut 'changes_in_stru' (pokrył 555 nowych par). Pozostało par: 146
+      Dodano atrybut 'changes_in_node' (pokrył 103 nowych par). Pozostało par: 43
+      Dodano atrybut 'block_of_affere' (pokrył 33 nowych par). Pozostało par: 10
+      Dodano atrybut 'special_forms' (pokrył 8 nowych par). Pozostało par: 2
+      Dodano atrybut 'extravasates' (pokrył 2 nowych par). Pozostało par: 0
+    [Fold 3] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 3] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'extravasates' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 3] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 3] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'changes_in_node', 'block_of_affere', 'special_forms', 'extravasates'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.786
+
+--- Rozpoczęcie Fold 4/10 ---
+    [Fold 4] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 4] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3341 nowych par). Pozostało par: 674
+      Dodano atrybut 'changes_in_stru' (pokrył 543 nowych par). Pozostało par: 131
+      Dodano atrybut 'special_forms' (pokrył 90 nowych par). Pozostało par: 41
+      Dodano atrybut 'block_of_affere' (pokrył 27 nowych par). Pozostało par: 14
+      Dodano atrybut 'changes_in_node' (pokrył 12 nowych par). Pozostało par: 2
+      Dodano atrybut 'lymphatics' (pokrył 2 nowych par). Pozostało par: 0
+    [Fold 4] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 4] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lymphatics' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 4] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 4] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'block_of_affere', 'changes_in_node', 'lymphatics'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 5/10 ---
+    [Fold 5] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 5] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3275 nowych par). Pozostało par: 740
+      Dodano atrybut 'changes_in_stru' (pokrył 587 nowych par). Pozostało par: 153
+      Dodano atrybut 'special_forms' (pokrył 108 nowych par). Pozostało par: 45
+      Dodano atrybut 'changes_in_node' (pokrył 31 nowych par). Pozostało par: 14
+      Dodano atrybut 'block_of_affere' (pokrył 12 nowych par). Pozostało par: 2
+      Dodano atrybut 'lym_nodes_enlar' (pokrył 2 nowych par). Pozostało par: 0
+    [Fold 5] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 5] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 11 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 10 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lym_nodes_enlar' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 5] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 5] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'lym_nodes_enlar'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.929
+
+--- Rozpoczęcie Fold 6/10 ---
+    [Fold 6] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 6] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3281 nowych par). Pozostało par: 734
+      Dodano atrybut 'changes_in_stru' (pokrył 568 nowych par). Pozostało par: 166
+      Dodano atrybut 'special_forms' (pokrył 115 nowych par). Pozostało par: 51
+      Dodano atrybut 'changes_in_node' (pokrył 34 nowych par). Pozostało par: 17
+      Dodano atrybut 'block_of_affere' (pokrył 14 nowych par). Pozostało par: 3
+      Dodano atrybut 'dislocation_of' (pokrył 3 nowych par). Pozostało par: 0
+    [Fold 6] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 6] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'dislocation_of' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 6] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 6] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'dislocation_of'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.929
+
+--- Rozpoczęcie Fold 7/10 ---
+    [Fold 7] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 7] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3308 nowych par). Pozostało par: 707
+      Dodano atrybut 'changes_in_stru' (pokrył 563 nowych par). Pozostało par: 144
+      Dodano atrybut 'special_forms' (pokrył 108 nowych par). Pozostało par: 36
+      Dodano atrybut 'changes_in_node' (pokrył 27 nowych par). Pozostało par: 9
+      Dodano atrybut 'dislocation_of' (pokrył 7 nowych par). Pozostało par: 2
+      Dodano atrybut 'block_of_affere' (pokrył 2 nowych par). Pozostało par: 0
+    [Fold 7] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 7] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'dislocation_of' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 2 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 7] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 7] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'dislocation_of', 'block_of_affere'] | Accuracy (Redukt): 0.857 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 8/10 ---
+    [Fold 8] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 8] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3321 nowych par). Pozostało par: 694
+      Dodano atrybut 'changes_in_stru' (pokrył 550 nowych par). Pozostało par: 144
+      Dodano atrybut 'changes_in_node' (pokrył 101 nowych par). Pozostało par: 43
+      Dodano atrybut 'block_of_affere' (pokrył 32 nowych par). Pozostało par: 11
+      Dodano atrybut 'defect_in_node' (pokrył 8 nowych par). Pozostało par: 3
+      Dodano atrybut 'lym_nodes_enlar' (pokrył 3 nowych par). Pozostało par: 0
+    [Fold 8] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 8] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 8 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 12 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'defect_in_node' (niezbędny - bez niego 4 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lym_nodes_enlar' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 8] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 8] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'changes_in_node', 'block_of_affere', 'defect_in_node', 'lym_nodes_enlar'] | Accuracy (Redukt): 0.929 | Accuracy (Baseline - pełne dane): 1.000
+
+--- Rozpoczęcie Fold 9/10 ---
+    [Fold 9] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 9] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3293 nowych par). Pozostało par: 722
+      Dodano atrybut 'changes_in_stru' (pokrył 582 nowych par). Pozostało par: 140
+      Dodano atrybut 'special_forms' (pokrył 101 nowych par). Pozostało par: 39
+      Dodano atrybut 'changes_in_node' (pokrył 28 nowych par). Pozostało par: 11
+      Dodano atrybut 'block_of_affere' (pokrył 10 nowych par). Pozostało par: 1
+      Dodano atrybut 'lymphatics' (pokrył 1 nowych par). Pozostało par: 0
+    [Fold 9] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 9] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'lymphatics' (niezbędny - bez niego 1 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 9] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 9] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'lymphatics'] | Accuracy (Redukt): 0.714 | Accuracy (Baseline - pełne dane): 0.857
+
+--- Rozpoczęcie Fold 10/10 ---
+    [Fold 10] --- Faza 1: Generowanie super-reduktu ---
+    [Fold 10] Do pokrycia: 4015 par.
+      Dodano atrybut 'no_of_nodes_in' (pokrył 3309 nowych par). Pozostało par: 706
+      Dodano atrybut 'changes_in_stru' (pokrył 559 nowych par). Pozostało par: 147
+      Dodano atrybut 'special_forms' (pokrył 103 nowych par). Pozostało par: 44
+      Dodano atrybut 'changes_in_node' (pokrył 28 nowych par). Pozostało par: 16
+      Dodano atrybut 'block_of_affere' (pokrył 13 nowych par). Pozostało par: 3
+      Dodano atrybut 'dislocation_of' (pokrył 3 nowych par). Pozostało par: 0
+    [Fold 10] --- Faza 2: Optymalizacja wsteczna (Modyfikacja 1) ---
+    [Fold 10] Weryfikacja niezbędności 6 cech...
+      [+] Zatrzymano: 'no_of_nodes_in' (niezbędny - bez niego 9 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_stru' (niezbędny - bez niego 6 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'special_forms' (niezbędny - bez niego 5 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'changes_in_node' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'block_of_affere' (niezbędny - bez niego 7 par staje się nierozróżnialnych).
+      [+] Zatrzymano: 'dislocation_of' (niezbędny - bez niego 3 par staje się nierozróżnialnych).
+    [ZAKOŃCZONO Fold 10] Redukcja cech: 6 -> 6
+    [ZAKOŃCZONO Fold 10] Redukt końcowy: ['no_of_nodes_in', 'changes_in_stru', 'special_forms', 'changes_in_node', 'block_of_affere', 'dislocation_of'] | Accuracy (Redukt): 0.929 | Accuracy (Baseline - pełne dane): 0.929
+
+========== PODSUMOWANIE EKSPERYMENTU ==========
+Wartość referencyjna (Baseline Accuracy - pełen zbiór): 0.888 ± 0.056
+Średnia długość super-reduktu (przed optymalizacją): 6.000 ± 0.000
+Średnia długość zoptymalizowanego reduktu: 6.000 ± 0.000
+--- Miary jakości dla modelu ze zredukowanymi atrybutami ---
+Średnia dokładność klasyfikatora (Accuracy): 0.812 ± 0.114
+Średnia precyzja (Precision): 0.819 ± 0.123
+Średnia czułość (Recall): 0.804 ± 0.115
+Średnia miara F1 (F1-score): 0.806 ± 0.116
+Całkowity czas obliczeń: 3.368 sekund (0.056 minut)
+Pełne logi z eksperymentu zapisano w pliku: log_mod1_greedy_modified_lymphography.txt
