@@ -1,0 +1,25 @@
+Top incisors,Bottom incisors,Top canines,Bottom canines,Top premolars,Bottom premolars,Top molars,Bottom molars,MAMMAL
+c,c,c,c,c,c,c,c,c
+2,3,1,1,3,3,3,3,BROWN BAT
+3,2,1,0,3,3,3,3,MOLE
+2,3,1,1,2,3,3,3,SILVER HAIR BAT
+2,3,1,1,2,2,3,3,PIGMY BAT
+2,3,1,1,1,2,3,3,HOUSE BAT
+1,3,1,1,2,2,3,3,RED BAT
+2,1,0,0,2,2,3,3,PIKA
+2,1,0,0,3,2,3,3,RABBIT
+1,1,0,0,2,1,3,3,BEAVER
+1,1,0,0,1,1,3,3,GRAY SQUIRREL
+1,1,0,0,0,0,3,3,HOUSE MOUSE
+3,3,1,1,4,4,2,3,WOLF
+3,3,1,1,4,4,3,2,RACCOON
+3,3,1,1,4,4,1,2,MARTEN
+3,3,1,1,3,3,1,2,WEASEL
+3,3,1,1,4,3,1,2,RIVER OTTER
+3,2,1,1,3,3,1,2,SEA OTTER
+3,3,1,1,3,2,1,1,JAGUAR
+3,2,1,1,4,4,1,1,FUR SEAL
+3,2,1,1,3,3,2,2,GREY SEAL
+2,1,1,1,4,4,1,1,ELEPHANT SEAL
+0,4,1,0,3,3,3,3,REINDEER
+0,4,0,0,3,3,3,3,DEER
