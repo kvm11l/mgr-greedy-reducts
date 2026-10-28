@@ -31,6 +31,6 @@ W projekcie zaimplementowano i porównano trzy warianty zachłannego wyznaczania
 
 1. Sklonuj repozytorium i zainstaluj wymagane pakiety:
 ```bash
-git clone [https://github.com/kvm11l/mgr-greedy-reducts.git](https://github.com/kvm11l/mgr-greedy-reducts.git)
+git clone https://github.com/kvm11l/mgr-greedy-reducts.git
 cd mgr-greedy-reducts
 pip install -r requirements.txt
